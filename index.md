@@ -1,6 +1,6 @@
 ---
 permalink: /index.html
-title: "Startsemester ICT & Business - resources"
+title: "Fontys ICT - Startsemester ICT & Business - resources"
 ---
 
 # Over deze site
