@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+$color-purple: #663366;
+$color-blue: #0076E0;
+$color-magenta: #E5007D;
+$font-type: arial;
+
+h1 { color: $color-purple !important; }
+h2 { color: $color-purple !important; }
+h3 { color: $color-purple !important; }
+h4 { color: $color-purple !important; }

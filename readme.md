@@ -1,6 +1,8 @@
 ---
 permalink: /readme.html
+title: "Readme"
 ---
+
 # Foobar
 
 Foobar is a Python library for dealing with word pluralization.
