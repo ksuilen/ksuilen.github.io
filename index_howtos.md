@@ -7,4 +7,4 @@ title: "Howto guides"
 We hebben hier een aantal veel voorkomende vragen op een rijtje gezet om je op weg te helpen.
 
 # Index
-- [Gebruiken en installeren van R & Rstudio](howto_installatie)
+- [Gebruiken en installeren van R & Rstudio](howto_install)
