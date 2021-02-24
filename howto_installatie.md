@@ -4,7 +4,9 @@ title: "Howto guides - installatie"
 ---
 # Gebruiken en installeren van R & Rstudio
 Allereerst is het goed om te weten dat je verschillende keuzes hebt:
-- Gebruik je incidenteel Rstudio en heb je weinig behoefte om te installeren, wil je vooral even proberen: gebruik dan [Rstudio Cloud](https://rstudio.cloud/). Deze is gratis te gebruiken en geschikt voor proefstuderen, de orientatie fase en incidenteel gebruik. Je maakt hier zelf een account aan. zie voor meer info de [guide](https://rstudio.cloud/learn/guide). Eventuele bestanden moet je dus altijd eerst uploaden!
+- Gebruik je incidenteel Rstudio en heb je weinig behoefte om te installeren, wil je vooral even proberen: gebruik dan [Rstudio Cloud](https://rstudio.cloud/). Deze is gratis te gebruiken en geschikt voor proefstuderen en incidenteel gebruik. Je maakt hier zelf een account aan. zie voor meer info de [guide](https://rstudio.cloud/learn/guide). Eventuele bestanden moet je dus altijd eerst uploaden! 
+
+    **Let op: **: deze versie is slechts 15 uur per maande te gebruiken volgens de huidige voorwaarden
 
 - Heb je behoefte aan wat meer mogelijkheden en loop je tegen de grenzen aan van de cloud versie? dan hebben we binnen FHICT een eigen Rstudio server. Dit kan handig zijn als je lokaal vast loopt, geen nieuw account op Rstudio cloud aan wil maken of je eigen installatie niet om zeep wil helpen :). Ga naar de [FHICT Rstudio server](https://rstudio.app.fhict.nl/) en log in met je **I account**. Het werkt vergelijkbaar met rstudio cloud. Eventuele bestanden moet je dus altijd eerst uploaden! 
 

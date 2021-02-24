@@ -32,7 +32,41 @@
     </section>
 
     <section class="main-content">
-      <h1 id="installeren-eigen-libraries">Installeren eigen libraries</h1>
+      <h1 id="over-libraries-packages">Over libraries (packages)</h1>
+<p>Omdat ieder project eigen functionaliteit behoeft, en je niet iedere keer het wiel opnieuw wil uitvinden, kun je gebruik maken van setjes voorgedefinieerde functionaliteit. Zie Rstudio als een kale Word of Excel, waarbij je de ribbon vult met knoppen door zelf libraries (of packages zoals programmeurs zeggen) toe te voegen.
+Zo hebben specifieke databronnen vaak hun eigen library (denk aan <a href="https://code.markedmondson.me/googleAnalyticsR/">GoogleAnalyticsR</a>, SQLServer/MySQL of <a href="https://www.rdocumentation.org/packages/spotifyr/versions/1.0.0">SpotifyR</a>])</p>
+
+<h2 id="installeren--nieuwe-libraries">Installeren  nieuwe libraries</h2>
+<p>Krijg je een melding in je notebook met iets n de richting van <code class="language-plaintext highlighter-rouge">could not find..</code> of <code class="language-plaintext highlighter-rouge">could not load..</code> dan heb je dikke kans dat de betreffende library nog niet geinstalleerd is bij jou.</p>
+
+<p>Libraries installeren <strong>doe je niet vanuit een Notebook</strong>, omdat dit een eenmalige actie is. het gebruiken van een library doe je wel in je notebook.</p>
+
+<p>Installatie kan op 2 manieren:</p>
+<ul>
+  <li>
+    <p>Via de GUI van Rstudio. klik op Install en vervolgens tik je de naam van je library in.
+<img src="assets/img/lib_install_1.png" alt="installatie 1" /><br />
+Zoals jeziet kun je hier ook al vinden welke libraries er al geinstalleerd zijn.
+<img src="assets/img/lib_install_2.png" alt="installatie 2" /></p>
+  </li>
+  <li>
+    <p>Ben je iets handiger dan dat, wil je sneller aan de slag of meot je evt issues oplossen? dan gebruik je uiteraard de console! mbv een <code class="language-plaintext highlighter-rouge">install.packages()</code> commando geef je dan aan welke library je wil hebben. bv: 
+  <code class="language-plaintext highlighter-rouge">install.packages("tidyverse")</code></p>
+
+    <p>De console vind je normaal gesproken links onderaan.</p>
+  </li>
+</ul>
+
+<h2 id="gebruiken-library">Gebruiken library</h2>
+<p>Omdat Notebooks geschikt zijn om over te dragen aan iemand anders en jouw bevindingen te reproduceren, moet die persoon ook weten welke libraries je daarvoor gebruikt hebt. Daarom laadt je in ieder notebook expliciet de benodigde libraries in.</p>
+
+<p>Goed gebruik is om dat meteen in t begin van je document te doen en daar 1 chunk te maken waarin je de setup doet. Zoiets als hieronder dus:</p>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">library("tidyverse")</code><br />
+<code class="language-plaintext highlighter-rouge">library("ggplot2")</code></p>
+</blockquote>
+
+<p>Dan kom je neit halverwege allerlei nieuwe libraries tegen en heb je een goed beeld van de benodigde afhankelijkheden.</p>
 
 
       <footer class="site-footer">
