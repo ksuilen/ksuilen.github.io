@@ -29,14 +29,15 @@ Diverse instructies om technisch inhoudelijke zaken aan te pakken of om te start
 
 ## FAQ
 
-## Cheatsheets
-Verzameling van cheatsheets die handig kunnen zijn, al gaan ze vaak veel verder dan wat je in het startsemester nodig zult hebben. 
-Let op: ze linken naar de orignele bron. Is een link stuk? Meldt het dan s.v.p.
-Zie hier het [overzicht van nuttige cheatsheets](index_cheatsheets).
+## Cheat sheets & andere externe bronnen
+Verzameling van cheat sheets en andere bronnen die handig kunnen zijn. Ze gaan soms wel vaak een stuk verder dan wat je in het startsemester nodig zult hebben, dus laat je daardoor niet verwarren!  
+Zie hier het [overzicht van nuttige cheat sheets en andere bronnen](index_cheatsheets).
 
 ## Diversen
+...
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Bijdragen?
+Pull requests zijn welkom!  
+Neem voor grote wijzigingen even contact op via b.v. een issue om te bespreken wat je wilt wijzigen.
 
 
