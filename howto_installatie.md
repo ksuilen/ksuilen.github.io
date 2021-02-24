@@ -1,5 +1,5 @@
 ---
-permalink: /howto_install.html
+permalink: /howto_installatie.html
 title: "Howto guides - installatie"
 ---
 # Gebruiken en installeren van R & Rstudio
