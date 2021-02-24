@@ -5,9 +5,18 @@
 $color-purple: #663366;
 $color-blue: #0076E0;
 $color-magenta: #E5007D;
-$font-type: verdana;
+$color-white: #FFFFFF;
+$font-type: Arial;
 
-h1 { color: $color-purple !important; }
+h1.project-name { color: $color-white !important; }
+h1{ color: $color-purple !important; }
 h2 { color: $color-purple !important; }
 h3 { color: $color-purple !important; }
 h4 { color: $color-purple !important; }
+
+body{font-family: $font-type;}
+
+.page-header{
+    background-color: aliceblue;
+    background-image: linear-gradient(120deg, #663366, #fff)
+}
