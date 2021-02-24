@@ -23,8 +23,8 @@ Een introductie in data analyse en visiualisatie, bedoeld voor startsemester ICT
 
 ## Toolbox Verdieping
 Materialen voor de verdiepende fase, met complexere vraagstykken mbt analyse, transformatie en visualisatie
-## Howto's
-Diverse instructies om technisch inhoudelijke zaken aan te pakken of om te starten met een odnerwerp
+## [Howto's](index_howtos)
+Diverse instructies om technisch inhoudelijke zaken aan te pakken of om te starten met een onderwerp. zie hier de [index van howto's](index_howtos)
 ## FAQ
 
 ## Diversen
