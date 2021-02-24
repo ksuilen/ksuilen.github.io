@@ -8,3 +8,4 @@ We hebben hier een aantal veel voorkomende vragen op een rijtje gezet om je op w
 
 # Index
 - [Gebruiken en installeren van R & Rstudio](howto_installatie)
+- [Installeren van nieuwe libraries/packages in Rstudio](howto_install_libraries)
