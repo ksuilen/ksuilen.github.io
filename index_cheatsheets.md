@@ -40,3 +40,10 @@ Iets langer van stof dan een cheat sheet, ook nuttig.
 - [Datacamp - Introduction to SQL](https://learn.datacamp.com/courses/introduction-to-sql) Interactieve online cursus (~ 4 uur) over de beginselen van SQL
 - [SQL leren](https://gkoetsier.nl/tut_mysql.html) een hele basic website waarin SQL uitgelegd wordt in het Nederlands (door Donny Semeleer)
 - [FHICT SQL tool](https://www.fhict.nu/sqltool) tool waarin je SQL statements uit kunt proberen als je een FHICT i-account hebt
+
+# Bronnen voor datasets
+Je kunt met een dataset aan de slag die op Canvas aangerijkt wordt, of met een eigen dataset van bijvoorbeeld game- of sportprestaties als je die makkelijk kunt exporteren. Als je een andere, uitdagende dataset zoekt, dan kun je hier eens kijken.
+- [CBS](https://www.cbs.nl/nl-nl/onze-diensten/open-data/statline-als-open-data/snelstartgids) het CBS biedt zelfs een R package aan met data over van alles waar het CBS gegevens over heeft (dat is best veel!) let op, de datasets zijn GROOT dus zoals in de snelstartgids gesuggereerd wordt: pak daar een subset van.
+- [DUO](https://duo.nl/open_onderwijsdata/databestanden/) voor databestanden over scholen en leerlingen in Nederland (bijvoorbeeld cijfers van eindexamenkandidaten) en wat gegevens over het onderwijs in Caribisch Nederland
+- [Kaggle](https://www.kaggle.com/datasets) (meestal) Engelstalige datasets in allerlei soorten en maten over tal van onderwerpen
+- [Mockaroo](https://www.mockaroo.com/) zelf (mock) data genereren? Dan is Mockaroo je tool als je meer wilt doen dan je in Excel kunt doen
