@@ -47,3 +47,8 @@ Je kunt met een dataset aan de slag die op Canvas aangerijkt wordt, of met een e
 - [DUO](https://duo.nl/open_onderwijsdata/databestanden/) voor databestanden over scholen en leerlingen in Nederland (bijvoorbeeld cijfers van eindexamenkandidaten) en wat gegevens over het onderwijs in Caribisch Nederland
 - [Kaggle](https://www.kaggle.com/datasets) (meestal) Engelstalige datasets in allerlei soorten en maten over tal van onderwerpen
 - [Mockaroo](https://www.mockaroo.com/) zelf (mock) data genereren? Dan is Mockaroo je tool als je meer wilt doen dan je in Excel kunt doen
+
+# Installatie linkjes
+Alleen nodig als je meer wilt dan je via de door FHICT gehoste RStudio server kunt.
+- [R](https://cran.r-project.org/) de taal
+- [RStudio](https://rstudio.com/products/rstudio/download/) de ontwikkelomgeving (kies de gratis RStudio Desktop)
