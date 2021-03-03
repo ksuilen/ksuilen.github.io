@@ -20,6 +20,7 @@ Op zich wijst Mockaroo zichzelf wel, en er zijn legio tutorials te vinden. toch 
 - Gebruik **Custom Lists** als datatype als je zelf wil bepalen uit welke range van waardes je een kolom wil vullen. bv: je wil klantendata genereren en hebt een kolom `abonnementsvorm` die de waardes **Gold**.**Silver**,**Bronze** heeft. mbv een custom list en een custom distribution kun je dan bv aangeven dat voor iedere Gold klant er 3 Silver en 5 Bronze klanten zijn
 ![mockdata 1](assets/img/mock_1.png)
 - Je kan mbv de ingebouwde syntax/formules nog meer aanpassen, zie de [formula help](https://www.mockaroo.com/help/formulas){:target="_blank"}
+
 ## Excel
 Excel is behoorlijk krachtig als het gaat om data bewerking en door slim gebruik te maken van diverse (minder bekende) functies kun je je eigen data nog aardig vorm geven. Een paar voorbeelden:
 
