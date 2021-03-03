@@ -18,7 +18,7 @@ Voordat je met de materialen op deze site aan de slag gaat raden we ten zeerste 
 - `Oefening` : Een casus met een aantal gerichte vragen/opdrachten om je vaardigheden op te frissen, of te testen. In sommige gevall zijn de uitwerkingen zijn beschikbaar
 - `Challenge` : Een wat complexere casus die je vrij laat in de manier waarop je deze oplost. Er is geen eenduidige oplossing beschikbaar, deze kun je gebruiken om je docent te overtuigen van je vaardigheden.
 
-## Toolbox Orientatie
+## [Toolbox Orientatie](toolbox_orientatie)
 Een introductie in data analyse en visiualisatie, bedoeld voor startsemester ICT & Business.
 
 ## Toolbox Verdieping

@@ -1,0 +1,60 @@
+---
+title: "Dataset verkopen - Voorbeeld opdracht [jouw naam]"
+output: html_document
+---
+
+Dit is een voorbeeld van hoe je aan de slag zou kunnen gaan met R chunks in een Notebook.
+Hierin ga je:
+opmaak toepassen
+functies uit Datacamp toepassen op een "eigen" dataset
+oefenen met "knitten"
+Er is met zogenaamde Markdown allerlei opmaak toegepast op de tekst rondom de chunks. Dit is anders dan hoe het in Word gaat (daar is het meer What You See Is What You Get), het is wel vergelijkbaar met de opmaak van pagina's in Wikipedia.
+Importeren libraries en dataset
+Hieronder worden libraries geladen waar functies in zitten die we verderop in het Notebook gaan gebruiken: readxl en tidyverse. Daarnaast wordt hier de dataset geimporteerd zodat we daar vragen aan kunnen stellen. De dataset verkopen gaat over verkopers uit verschillende delen van de wereld, die iPhones en iPads verkopen.
+
+```{r message=FALSE, warning=FALSE}
+# laadt readxl
+library(readxl)
+
+# laadt tidyverse
+library(tidyverse)
+
+# importeer de dataset
+iVerkopen <- read_excel("dataset_verkopen.xlsx")
+```
+Als je bovenstaande code uitvoert door op het groene pijltje rechtsbovenin de chunk te drukken, gebeurt er nog vrij weinig. Als het goed is verschijnt er alleen even een groen balkje naast de code regels. Tenminste, als je het Excel bestand op de juiste plek hebt geüpload.
+Het laden van de libraries hoeven we maar 1 keer te doen en het is wel zo overzichtelijk om dat allemaal aan het begin van je document te doen voor je de inhoud in duikt.
+
+Welke verkoper komt van het Scandinavische continent?
+Voor het beantwoorden van deze vraag heb je niet perse R nodig als je naar de data kijkt, maar we gebruiken het nu toch even.
+
+```{r}
+# eventueel kun je met een # binnen een chunk een korte, technische toelichting geven op je code
+
+```
+
+Knut is de verkoper die van het Scandinavische continent komt. Merk op dat Scandinavie eigenlijk geen continent is.
+
+Een paar vragen over de opbrengst
+Let op: Omdat jullie functies min en max waarschijnlijk nog niet gehad hebben, lossen we dit op een andere manier op... namelijk door te zorgen dat het antwoord op onze vraag bovenaan in de tabel komt. En pssst, zie je dat het kopje hieronder net iets kleiner is dan die hierboven?
+Welke verkoper heeft de laagste opbrengst?
+Om deze vraag te beantwoorden sorteren we de data zodat de verkoper met de laagste opbrengst bovenaan komt.
+
+```{r}
+# een technische toelichting is natuurlijk alleen nuttig als er ook echt iets wat moeilijkers gebeurt
+# dus misschien is het nu nog niet van toepassing
+
+```
+
+Mevrouw Ling staat bovenaan, dus zij heeft de laagste oprengst. Het is best lang geleden dat de laatste bestelling bij haar is geplaatst, dus misschien heeft ze maar heel even als verkoper hier gewerkt.
+Welke verkoper uit Azie heeft de hoogste opbrengst?
+Om deze vraag te beantwoorden filteren we op verkopers uit Azie en sorteren we de data zodat de verkoper met de hoogste opbrengst bovenaan komt.
+
+```{r}
+# laatste vooraf ingevoegde chunk, voor de vragen die je zelf bedenkt mag je ze zelf invoegen
+
+```
+
+Mevrouw Ling staat bovenaan (en onderaan). Zou dat dezelfde dame zijn? Met iPads heeft ze het dan beter gedaan dan met iPhones.
+
+Bedenk zelf nog een paar vragen die je aan deze dataset zou kunnen stellen. Misschien kun je ze op dit moment nog niet allemaal beantwoorden met je R skills, maar dat komt vanzelf. Experimenteren mag!
