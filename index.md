@@ -13,24 +13,24 @@ Voordat je met de materialen op deze site aan de slag gaat raden we ten zeerste 
 - [Datacamp](https://www.datacamp.com/) (Let op dat in Canvas de volledige link staat voor studententoegang)
 
 ## Structuur
-- `Tutorial` : Een stap-voor-stap aanpak om een bepaald resultaat te bereiken, met de bedoeling om nieuwe vaardigheden te leren in realtie tot elkaar
+- `Tutorial` : Een stap-voor-stap aanpak om een bepaald resultaat te bereiken, met de bedoeling om nieuwe vaardigheden te leren in relatie tot elkaar
 - `How-to` : Een stap-voor-stap manier om een enkelvoudig probleem aan te pakken
 - `Oefening` : Een casus met een aantal gerichte vragen/opdrachten om je vaardigheden op te frissen, of te testen. In sommige gevall zijn de uitwerkingen zijn beschikbaar
 - `Challenge` : Een wat complexere casus die je vrij laat in de manier waarop je deze oplost. Er is geen eenduidige oplossing beschikbaar, deze kun je gebruiken om je docent te overtuigen van je vaardigheden.
 
 ## Toolbox Orientatie
-Een introductie in data analyse en visiualisatie, bedoeld voor startsemester ICT & Business.
+Een introductie in data analyse en visualisatie, bedoeld voor startsemester ICT & Business.
 
 ## Toolbox Verdieping
-Materialen voor de verdiepende fase, met complexere vraagstykken mbt analyse, transformatie en visualisatie.
+Materialen voor de verdiepende fase, met complexere vraagstukken mbt analyse, transformatie en visualisatie.
 
 ## [Howto's](index_howtos)
 Diverse instructies om technisch inhoudelijke zaken aan te pakken of om te starten met een onderwerp. Zie hier de [index van howto's](index_howtos).
 
 ## FAQ
 
-## Cheat sheets & andere externe bronnen
-Verzameling van cheat sheets en andere bronnen die handig kunnen zijn. Ze gaan soms wel vaak een stuk verder dan wat je in het startsemester nodig zult hebben, dus laat je daardoor niet verwarren!  
+## [Cheat sheets & andere externe bronnen](index_cheatsheets)
+Verzameling van cheat sheets en andere bronnen die handig kunnen zijn. Ze gaan vaak een stuk verder dan wat je in het startsemester nodig zult hebben, dus laat je daardoor niet verwarren!  
 Zie hier het [overzicht van nuttige cheat sheets en andere bronnen](index_cheatsheets).
 
 ## Diversen
