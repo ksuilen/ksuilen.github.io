@@ -28,9 +28,10 @@ Materialen voor de verdiepende fase, met complexere vraagstukken mbt analyse, tr
 Diverse instructies om technisch inhoudelijke zaken aan te pakken of om te starten met een onderwerp. Zie hier de [index van howto's](index_howtos).
 
 ## FAQ
+- [Waar kan ik een dataset vandaan halen?](datasets)
 
-## [Cheat sheets & andere externe bronnen](index_cheatsheets)
-Verzameling van cheat sheets en andere bronnen die handig kunnen zijn. Ze gaan vaak een stuk verder dan wat je in het startsemester nodig zult hebben, dus laat je daardoor niet verwarren!  
+## Cheat sheets & andere externe bronnen voor het leren van R en SQL
+Verzameling van cheat sheets en andere bronnen die handig kunnen zijn. Ze gaan soms wel vaak een stuk verder dan wat je in het startsemester nodig zult hebben, dus laat je daardoor niet verwarren!  
 Zie hier het [overzicht van nuttige cheat sheets en andere bronnen](index_cheatsheets).
 
 ## Diversen
