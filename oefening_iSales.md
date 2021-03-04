@@ -8,7 +8,7 @@ In deze oefening ga je aan de slag met een bestaand notebook om het wat leesbaar
 # Doel
 Kennismaking met notebooks, de opmaaktaal Markdown en zien hoe de stukjes R code (waarvan je de syntax elders leert) daar mooi in passen.
 
-# Instapniveau
+# Voorkennis
 In deze oefening ga je een aantal dingen gebruiken, waar je van te voren even naar gekeken moet hebben:
 - RStudio (en daarin laad je een bestaand notebook en een dataset)
 - Markdown
@@ -17,7 +17,7 @@ In deze oefening ga je een aantal dingen gebruiken, waar je van te voren even na
 **Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheetsheets) (of zoek andere bronnen) als je ergens niet uit komt!
 
 # Opgave
-1. Importeer het notebook en de dataset in RStudio (zie bronbestanden hieronder)
+1. Laad het notebook en de dataset in RStudio (zie bronbestanden hieronder)
 2. Gebruik Markdown om de opmaak van de tekst rondom de R chunks (na "knitten" tot html) zo te krijgen als in het voorbeeld PDF-bestand. Neem alle opmaak zo letterlijk mogelijk over (kopjes in verschillende niveau's, *schuingedrukte tekst*, **dikgedrukte tekst**, lijstjes,...)
 3. Zorg dat de R chunks ingevuld worden, zodat de gewenst output verschijnt (zie voorbeeld PDF-bestand)
 4. "Knit" je notebook naar een html en check
