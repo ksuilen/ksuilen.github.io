@@ -29,4 +29,4 @@ Let op: in het PDF-bestand staan lege code blokken, maar in jouw versie zal hier
 ## Materialen:
 - [Dataset](/assets/file/dataset_mystravadata.csv)
 - [Voorbeeld uitwerking](/assets/file/Oefening_Strava_1_docent.pdf)
-- [Oefen notebook](/assets/file/OEfening_Strava_1.Rmd)
+- [Oefen notebook](/assets/file/Oefening_Strava_1.Rmd)
