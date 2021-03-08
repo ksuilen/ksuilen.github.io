@@ -27,4 +27,6 @@ In deze oefening ga je een aantal dingen gebruiken, waar je van te voren even na
 Let op: in het PDF-bestand staan lege code blokken, maar in jouw versie zal hier de R code te zien zijn die zorgt voor de gewenste output!
 
 ## Materialen:
-
+- [Dataset](/assets/file/dataset_mystravadata.csv)
+- [Voorbeeld uitwerking](/assets/file/Oefening_Strava_1_docent.pdf)
+- [Oefen notebook](/assets/file/OEfening_Strava_1.Rmd)
