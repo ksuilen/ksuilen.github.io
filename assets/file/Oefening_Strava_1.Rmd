@@ -2,9 +2,9 @@
 title: "Strava analysis"
 output: html_notebook
 ---
-#Over de data
+# Over de data
 Strava is een social platform waar je ritgegevens, hardloopgegevens etc in kan bijhouden. in deze opgave maken we gebruik van een beperkte dataset uit dit platform
-#Setup van document
+# Setup van document
 Inlezen libraries
 ```{r message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -16,7 +16,7 @@ library(scales)
 Inlezen data
 - Pas de filenaam maar aan
 ```{r message=FALSE, warning=FALSE}
-act_data <- read_delim("mystravadata.csv", 
+act_data <- read_delim("dataset_mystravadata.csv", 
     ";", escape_double = FALSE, trim_ws = TRUE)
 ```
 
@@ -77,12 +77,14 @@ Door gegevens als distance of moving time op te tellen (count of sum) per groep 
 ```{r}
  act_maand_jaar <- winterdata %>%
   group_by(Jaar, Maand) %>%
-  summarize("afstand" = sum(distance))
+  summarize("afstand" = sum(distance)) %>%
+  arrange(desc(afstand))
+
  act_maand_jaar
 ```
 Dit begint ergens op te lijken! laten we nu voor de maand februari eens kijken hoe die zich ontwikkeld heeft. Daarvoor gebruiken we een bar chart als visualisatie en een subset van deze data
 ```{r}
-ggplot(subset(act_maand_jaar,Maand == "2"), aes(x=Jaar, y=afstand))+
+ggplot(subset(act_maand_jaar,Maand == "2"), aes(x=Jaar, y=afstand, fill="red"))+
   geom_col()+
   scale_x_continuous(breaks=seq(2013, 2021, 1)) #fixed een raar probleem met de x as
 ```
@@ -92,15 +94,15 @@ Met deze voorbeelden moet je dmv aanpassen en kopieren van code chunks de volgen
 ## Vergelijk de afstand voor de wintermaanden december, januari en februari opgeteld per jaar
 - Filter de dataset op de betreffende maanden
 ```{r}
-#winterdata_total <- winterdata %>%
-#  ..
+winterdata_total <- winterdata %>%
+  filter(Maand %in% c(12,1,2))
 ```
 
 - Groepeer en tel op per jaar (en dus niet meer per maand)
-```{r}
-#winterdata_total <- winterdata_total %>%
-# group_by() %>%
-# summarize(".." = sum(..))
+```{r message=FALSE}
+winterdata_total <- winterdata_total %>%
+ group_by(Jaar, Maand) %>%
+ summarize("totaal" = sum(distance))
 ```
 
 - Visualiseer mbv een `ggplot('jouw_datasetnaam', aes(x=Jaar, y='jouw_som_per_jaar')) en een `geom_col()`
