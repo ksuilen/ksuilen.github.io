@@ -1,4 +1,3 @@
 path_aanpassingen.txt
-_site
-*.html
+_site/
 .DS_Store

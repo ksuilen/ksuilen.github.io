@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 # Build settings
 markdown: kramdown
+#Analytics
+google_analytics: UA-191795617-1
