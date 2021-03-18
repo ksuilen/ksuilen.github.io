@@ -23,5 +23,9 @@ Bekijk wat je hiervan nodig hebt, misschien is heb je de extra uitleg niet eens 
 - [Oefening: Facebook ad analysis](oefening_facebook_1) \*** - Deze oefening bevat vragen waarbij je al de skills uit de orientatie nodig hebt
 
 # Oefeningen - Interpreteren
-- [Oefenvragen data interpreteren](oefening_interpreteren)
+
 # Oefeningen - Visualiseren
+
+# Challenges
+Hier vind je een aantal vragen (van diverse complexitei) per dataset. Deze kun je gebruiken als bewijs om te laten zien dat je de skills mbt R, Tidyverse en Ggplot in huis hebt.
+[Orientatie challenges](challenges_orientatie)
