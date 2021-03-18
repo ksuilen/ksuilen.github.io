@@ -20,14 +20,12 @@ Voordat je met de materialen op deze site aan de slag gaat raden we ten zeerste 
 
 ## [Toolbox Orientatie](toolbox_orientatie)
 Een introductie in data analyse en visiualisatie, bedoeld voor startsemester ICT & Business.
-[ga naar de toolbox](toolbox_orientatie)
 
 ## Toolbox Verdieping
 Materialen voor de verdiepende fase, met complexere vraagstukken mbt analyse, transformatie en visualisatie.
 
 ## [Howto's](index_howtos)
-Diverse instructies om technisch inhoudelijke zaken aan te pakken of om te starten met een onderwerp. 
-Ga naar de [index van howto's](index_howtos).
+Diverse instructies om technisch inhoudelijke zaken aan te pakken of om te starten met een onderwerp. Zie hier de [index van howto's](index_howtos).
 
 ## FAQ
 - [Waar kan ik een dataset vandaan halen?](datasets)
