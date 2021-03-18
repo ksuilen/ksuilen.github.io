@@ -19,7 +19,9 @@ Bekijk wat je hiervan nodig hebt, misschien is heb je de extra uitleg niet eens 
 
 # Oefeningen - Transformeren & bewerken
 - [Oefening: iSales](oefening_iSales) \* - Zeer basic chunks in een notebook met leesbare, opgemaakte tekst er omheen
-- [Oefening Strava 1](oefening_strava_1) \** - Als je de eerste cursussen in tidyverse hebt gedaan en weet hoe een group_by werkt en je meerdere statements kan combineren
+- [Oefening Strava 1](oefening_strava_1) \*\* - Als je de eerste cursussen in tidyverse hebt gedaan en weet hoe een group_by werkt en je meerdere statements kan combineren
 
 # Oefeningen - Interpreteren
+
 # Oefeningen - Visualiseren
+- [Oefening: iSales - Visualiseren](oefening_verkopen_visualiseren) \* - Basisvaardigheden voor visualisatie oefenen in een echt notebook terwijl je weet hoe het eruit moet gaan zien

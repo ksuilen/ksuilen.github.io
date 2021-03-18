@@ -1,0 +1,45 @@
+---
+title: "iSales - Visualiseren [jouw naam]"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+In dit notebook ga je een paar eenvoudige visualisaties nabouwen. Voor net iets meer uitdaging en beter leesbare grafieken staan er ook een paar optionele opdrachten in.
+
+```{r message=FALSE, warning=FALSE}
+# lees libraries in
+library(dplyr)   # voor allerlei handige functies zoals %>%
+library(ggplot2) # voor tekenen grafieken
+library(readxl)  # voor inlezen dataset
+
+# lees dataset in
+iSales <- read_excel("dataset_verkopen.xlsx")
+```
+
+# Welk land heeft de hoogste opbrengst?
+Om deze vraag te beantwoorden maak ik een grafiek met alle landen naast elkaar en waarin de hoogte van de staven in het diagram de opbrengst aangeven.
+
+```{r}
+# haal deze code comment en alle #-jes in deze chunk weg
+# vul op de puntjes de juiste dingen in om de gewenste output te krijgen
+#...
+#ggplot(...(... , ...))+
+#  geom_col()
+```
+
+Noorwegen heeft als enige een opbrengst boven de 6000 en heeft daarmee de hoogste opbrengst.
+
+
+# Welke vrouw heeft de meeste omzet gedraaid?
+Om deze vraag te beantwoorden maak ik een grafiek met de personen naast elkaar en geef ik de punten een kleurtje op basis van geslacht.
+
+```{r}
+# schrijf hier de R code om de gewenste output te krijgen
+
+```
+
+
+Uit deze grafiek is af te lezen Therese de hoogste waarde qua opbrengst heeft. Maar Ling heeft als enige twee punten. Als je die waardes bij Ling op zou tellen, komt zij misschien wel hoger dan Therese.
+
