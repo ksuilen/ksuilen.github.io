@@ -18,10 +18,11 @@ Bekijk wat je hiervan nodig hebt, misschien is heb je de extra uitleg niet eens 
 - [How to: Installatie](howto_installatie)
 
 # Oefeningen - Transformeren & bewerken
-- [Oefening: iSales](oefening_iSales) \* - Zeer basic chunks in een notebook met leesbare, opgemaakte tekst er omheen
+- [Oefening: Verkopen](oefening_verkopen) \* - Zeer basic chunks in een notebook met leesbare, opgemaakte tekst er omheen
 - [Oefening Strava 1](oefening_strava_1) \*\* - Als je de eerste cursussen in tidyverse hebt gedaan en weet hoe een group_by werkt en je meerdere statements kan combineren
 
 # Oefeningen - Interpreteren
 
 # Oefeningen - Visualiseren
-- [Oefening: iSales - Visualiseren](oefening_verkopen_visualiseren) \* - Basisvaardigheden voor visualisatie oefenen in een echt notebook terwijl je weet hoe het eruit moet gaan zien
+- [Oefening: Verkopen - Visualiseren](oefening_verkopen_visualiseren) \* - Basisvaardigheden voor visualisatie oefenen in een echt notebook terwijl je weet hoe het eruit moet gaan zien
+- [Oefening: Verkopen - Visualiseren 2](oefening_verkopen_visualiseren2) \*\*\* - Visualisaties gecombineerd met tidyverse commando's zoals group_by en tweaks aan weergave

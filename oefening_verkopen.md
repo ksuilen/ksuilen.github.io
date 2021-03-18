@@ -1,6 +1,6 @@
 ---
-permalink: /oefening_iSales.html
-title: "Oefening: iSales"
+permalink: /oefening_verkopen.html
+title: "Oefening: Verkopen"
 ---
 
 In deze oefening ga je aan de slag met een bestaand notebook om het wat leesbaarder te maken en pas je een paar basis functies uit de taal R toe.

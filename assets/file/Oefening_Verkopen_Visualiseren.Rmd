@@ -1,12 +1,12 @@
 ---
-title: "iSales - Visualiseren [jouw naam]"
+title: "Verkopen - Visualiseren [jouw naam]"
 output:
   html_document:
     df_print: paged
   pdf_document: default
 ---
 
-In dit notebook ga je een paar eenvoudige visualisaties nabouwen. Voor net iets meer uitdaging en beter leesbare grafieken staan er ook een paar optionele opdrachten in.
+In dit notebook ga je een paar eenvoudige visualisaties nabouwen.
 
 ```{r message=FALSE, warning=FALSE}
 # lees libraries in
@@ -43,3 +43,4 @@ Om deze vraag te beantwoorden maak ik een grafiek met de personen naast elkaar e
 
 Uit deze grafiek is af te lezen Therese de hoogste waarde qua opbrengst heeft. Maar Ling heeft als enige twee punten. Als je die waardes bij Ling op zou tellen, komt zij misschien wel hoger dan Therese.
 
+# Bedenk zelf nog een grafiek om te tekenen

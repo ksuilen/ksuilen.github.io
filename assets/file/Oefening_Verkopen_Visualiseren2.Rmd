@@ -1,0 +1,48 @@
+---
+title: "Verkopen - Visualiseren 2 [jouw naam]"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+In dit notebook ga je een paar iets complexere visualisaties nabouwen. Deze visualisaties zijn complexer omdat ze soms een aantal bewerkingen vooraf vragen, of iets meer veranderingen toepassen op het uiterlijk van een grafiek, of een grafiek type gebruiken dat je misschien nog niet eerder hebt gebruikt.
+
+```{r message=FALSE, warning=FALSE}
+# lees libraries in
+library(dplyr)   # voor allerlei handige functies zoals %>%
+library(ggplot2) # voor tekenen grafieken
+library(readxl)  # voor inlezen dataset
+
+# lees dataset in
+iSales <- read_excel("dataset_verkopen.xlsx")
+```
+
+# Hoe veel weken geleden waren de laatste bestellingen in de Aziatische landen?
+Om deze vraag te beantwoorden maak ik een grafiek met alle Aziatische landen naast elkaar en waarin de hoogte van de staven het aantal weken sinds laatste bestelling weergeeft, gesorteert van hoog naar laag aantal weken.
+
+```{r}
+# voeg hier jouw code toe om de juiste output voor elkaar te krijgen
+```
+
+Japan is het land waar het langst geleden een bestelling is geplaatst, daarna China en in Taiwan is het kortst geleden nog een bestelling geplaatst.
+
+# Wat is de spreiding van het aantal bestellingen per continent en geslacht?
+Om deze vraag te beantwoorden maak ik een diagram met per continent per geslacht een punt.
+
+```{r}
+# voeg hier jouw code toe om de juiste output voor elkaar te krijgen
+```
+
+Qua aantal bestellingen doen de mannen in Europa het het beste, maar (wat niet uit deze grafiek is af te lezen) ze zijn dan ook met z'n tweeen. Net als de mannen in Noord-Amerika trouwens, die het dan weer wat minder goed doen qua aantal bestellingen. De vrouwen in Europa verliest ruim de ongelijke strijd met twee vrouwen uit Azie waarvan er eentje zowel iPads als IPhones verkoopt.
+
+# Hoe staat het met de opbrengst in verhouding tot de klanttevredenheid bij de verkopers in de verschillende continenten?
+Om deze vraag te beantwoorden maak ik per continent een diagram met de opbrengst afgezet tegen de klanttevredenheid.
+
+```{r}
+# voeg hier jouw code toe om de juiste output voor elkaar te krijgen
+```
+
+Zo op het oog lijkt er geen duidelijke relatie te zijn tussen opbrengst en klanttevredenheid. Je zou wel verwachten dat er meer opbrengst is op plekken waar de klanttevredenheid hoogd is (mond-op-mond reclame). Misschien wordt het tijd voor betere marketing.
+
+
