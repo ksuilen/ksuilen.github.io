@@ -13,7 +13,7 @@ Hieronder geven we per dataset (de iSales, Strava en Facebook datasets) een aant
 Per challenge maak je een notebook waarin je je aanpak, code en resultaten verwerkt. Laat zien dat je ook qua opmaak (Markdown) een bergijpelijk document kan opleveren.
 
 # Challenges
-## Challange 1 - ISales dataset
+## Challenge 1 - ISales dataset
 - In welk continent is de gemiddelde klanttevredenheid het hoogste?
 - Bestellen mannen of vrouwen over het algemeen meer?
 - Welk product heeft per bestelling de hoogste opbrengst?
