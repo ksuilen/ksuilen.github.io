@@ -1,0 +1,139 @@
+---
+title: "Facebook ads analysis"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+## Uitleg
+In dit notebook gaan we stap voor stap aan de slag met het analyseren van de gegevens van een aantal facebook ads campagnes. inspiratie en dataset via  kaggle - https://www.kaggle.com/chrisbow/an-introduction-to-facebook-ad-analysis-using-r -
+
+## Setup
+Voordat we aan de slag kunnen, moeten er altijd 2 zaken geregeld worden:
+
+- De juiste libraries (voorgedefinieerde functies) inladen. als die er niet zijn, moeten we ze installeren mbv het `install.packages('naam library')` commando in de console
+- De benodigde data inladen.
+### Stap 1
+```{r message=FALSE}
+library("tidyverse")
+library("readxl") #voor Excel bestanden
+library("dplyr")
+library("ggplot2")
+```
+### Stap 2
+bij het inladen van data uit een bestand, meoten we het relatieve pad tov dit notebook opgeven. als je dus gebruik maakt van submappen, dan moet je dat ook aangeven.
+```{r message=FALSE, warning=TRUE}
+FBData <- read_csv("KAG_conversion_data.csv")
+```
+
+De beschrijving van de data is als volgt:
+
+1. ad_id: unique ID for each ad.
+2. xyz_campaign_id: an ID associated with each ad campaign of XYZ company.
+3. fb_campaign_id: an ID associated with how Facebook tracks each campaign.
+4. age: age of the person to whom the ad is shown.
+5. gender: gender of the person to whom the add is shown
+6. interest: a code specifying the category to which the person’s interest belongs (interests are as mentioned in the person’s Facebook public profile).
+7. Impressions: the number of times the ad was shown.
+8. Clicks: number of clicks on for that ad.
+9. Spent: Amount paid by company xyz to Facebook, to show that ad.
+10. Total conversion: Total number of people who enquired about the product after seeing the ad.
+11. Approved conversion: Total number of people who bought the product after seeing the ad.
+
+## Eerste stappen: verkennen
+Het is nu nog best lastig om een idee te vormen van deze dataset. We weten dat een regel in deze dataset iets zegt over 1 advertentie binnen een campagne. We beginnen daarom met wat verkenndende vragen.
+
+Later kunnen we iets dieper  gaan door wat zaken te berekenen
+- Wat is de Click Through Ratio van een advertentie geweest?
+- Wat is de Cost Per Click van een advertentie
+
+### Vraag 1 : Verken een verband tussen Spent & Total conversion
+- selecteer de juiste kolommen
+- bereken kosten per conversie
+- filter onbruikbare rijen eruit.
+- visualiseer het verband
+
+```{r echo=FALSE}
+Vraag1 <- FBData %>%
+  select(ad_id,Spent, Total_Conversion) %>%
+  mutate(CPC = Total_Conversion/Spent)
+Vraag1
+```
+Wat valt op als je de data bekijkt? We moeten dus nog iets filteren of muteren.. en vervolgens sorteren. Welk ad_id had de minst gunstige Cost per Transactie?
+```{r echo=FALSE}
+Vraag1 <- Vraag1 %>%
+  filter(Spent != 0.00) %>%
+  arrange(desc(CPC))
+Vraag1
+```
+
+ 
+Visualisatie van het verband mbv een grafiek waarbij je de individuele data punten kan zien:
+```{r echo=FALSE}
+ggplot(Vraag1, aes(x=Spent, y=Total_Conversion))+
+  geom_point()
+```
+
+### Vraag 2: Onderzoek of de campagnes evenredig over mannen en vrouwen worden gehouden
+- selecteer de juiste gegevens
+- filter op campagne 936
+- aggregeer gegevens naar geslacht & interne campagne id
+- visualiseer naar geslacht & leeftijd voor een campagne naar keuze
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+Vraag2 <- FBData %>%
+  select(xyz_campaign_id,gender,age,Spent) %>%
+  filter(xyz_campaign_id == 1178) %>%
+  group_by(gender, xyz_campaign_id, age) %>%
+  summarize('total_spent' = sum(Spent))
+Vraag2
+```
+
+
+```{r echo=FALSE}
+ggplot(Vraag2, aes(x=age, y=total_spent, fill = gender))+
+  geom_col(position = 'dodge')
+```
+Conclusie: er werd het meeste uitgegeven aan vrouwen in de categorie 45-49 jaar.
+
+### Vraag 3 - Zijn er interesses die er qua kosten & transacties uit springen?
+Tot nog toe hebben we niet gekeken naarde interesses van de geselecteerde doelgroepen. Daar gaan we nu eens induiken
+- per interessegroep de kosten en transacties berekenen
+- vergelijken hoe die interesses zich tot elkaar verhouden
+```{r echo=FALSE}
+Vraag3 <- FBData %>%
+  group_by(interest) %>%
+  summarize('total_spent' = sum(Spent), 'total_trans' = sum(Total_Conversion)) %>%
+  mutate(cpc = total_spent/ total_trans ) %>%
+  arrange (cpc)
+Vraag3
+```
+Visualiseer waarbij je ordent op de cost per conversie, oplopend/ Laat een horzontale 'benchmark' lijn zien op 15
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+ggplot(Vraag3, aes(x = reorder(interest , cpc), y =cpc))+
+  geom_col()+
+  geom_hline(yintercept = 15)
+  theme(axis.text.x = element_text(angle = 290, vjust = 0.5, hjust=1))
+```
+
+
+### Vraag 4 : Wat waren de 5 campagnes met de beste click through rate?
+CTR (Click Through Rate) = Clicks/Impressies * 100%
+
+- CTR berekenen per  advertentie
+- CTR van 0 uitfilteren
+- gemiddelde CTR bepalen per facebook campagne
+- sorteren
+
+```{r echo=FALSE}
+Vraag4 <- FBData %>%
+  mutate(CTR = (Clicks/Impressions)*100 ) %>%
+  filter (CTR > 0) %>%
+  group_by(fb_campaign_id) %>%
+  summarize('avg_ctr' = mean(CTR)) %>%
+  arrange(desc(avg_ctr)) %>%
+  slice_max(avg_ctr, n=5)
+Vraag4
+```
+
