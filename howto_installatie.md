@@ -8,12 +8,14 @@ Op deze pagina vind je informatie over het gebruiken en installeren van R & RStu
 ## RStudio
 Allereerst is het goed om te weten dat je verschillende keuzes hebt:
 - **RStudio Cloud gebruiken**.  
-Gebruik je incidenteel RStudio en heb je weinig behoefte om te installeren, wil je vooral even proberen: gebruik dan [RStudio Cloud](https://rstudio.cloud/). Deze is gratis te gebruiken en geschikt voor proefstuderen en incidenteel gebruik. Je maakt hier zelf een account aan. zie voor meer info de [guide](https://rstudio.cloud/learn/guide). Eventuele bestanden moet je dus altijd eerst uploaden! 
+Gebruik je incidenteel RStudio en heb je weinig behoefte om te installeren, wil je vooral even proberen: gebruik dan [RStudio Cloud](https://rstudio.cloud/). Deze is gratis te gebruiken en geschikt voor proefstuderen en incidenteel gebruik. Je maakt hier zelf een account aan. Zie voor meer info de [guide](https://rstudio.cloud/learn/guide).   
+Eventuele bestanden moet je altijd eerst uploaden naar de cloud server! 
 
     **Let op**: Deze versie is slechts 15 uur per maand te gebruiken volgens de huidige voorwaarden, dat zal te weinig zijn om de oriëntatie mee door te komen.
 
 - **RStudio server van FHICT gebruiken**.  
-Heb je behoefte aan wat meer mogelijkheden en loop je tegen de grenzen aan van de cloud versie? Dan hebben we binnen FHICT een eigen RStudio server. Dit kan handig zijn als je lokaal vast loopt, geen nieuw account op RStudio Cloud aan wil maken, of je eigen installatie niet om zeep wil helpen :). Ga naar de [FHICT Rstudio server](https://rstudio.app.fhict.nl/) en log in met je **I account (nummer zonder @fhict.nl)**. Het werkt vergelijkbaar met RStudio Cloud. Eventuele bestanden moet je dus altijd eerst uploaden! 
+Heb je behoefte aan wat meer mogelijkheden en loop je tegen de grenzen aan van de cloud versie? Dan hebben we binnen FHICT een eigen RStudio server. Dit kan handig zijn als je lokaal vast loopt, geen nieuw account op RStudio Cloud aan wil maken, of je eigen installatie niet om zeep wil helpen :). Ga naar de [FHICT Rstudio server](https://rstudio.app.fhict.nl/) en log in met je **I account (nummer zonder @fhict.nl)**. Het werkt vergelijkbaar met RStudio Cloud.   
+Eventuele bestanden moet je dus altijd eerst uploaden (naar de FHICT server)! 
 
 - **Installeer R & RStudio lokaal op je eigen machine**.  
 Dit is aan te raden als je zelf controle wilt over welke libraries je wilt kunnen installeren, je lokale bestanden makkelijk wilt kunnen gebruiken en als je met diverse databronnen wilt kunnen koppelen.  
