@@ -1,5 +1,0 @@
-echo 'export PATH="Users/ksuilen/.gem/ruby/3.0.0/bin:$PATH"' >> ~/.zshrc
-echo 'export PATH="$HOME/.gem/ruby/3.3.0/bin:$PATH"' >> ~/.zshrc
-
-echo 'export GEM_PATH="$HOME/.gem/ruby/3.3.0/bin:$PATH"' >> ~/.bash_profile
-echo 'export PATH="$GEM_PATH:$PATH"' >> ~/.bash_profile
