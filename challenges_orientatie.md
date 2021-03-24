@@ -3,7 +3,7 @@ permalink: /challenges_orientatie.html
 title: "Orientatie - Challenges "
 ---
 
-Hieronder geven we per dataset (de iSales, Strava en Facebook datasets) een aantal challanges waar je dmv data analyse een antwoord en een advies over kan geven. Je moet dus zelf een notebook aanmaken en de juiste stappen & bewerkingen doen (wellicht kun je hergebruik maken van de andere oefenopgaves) en passende visualisaties kiezen om je boodschap over te brengen.
+Hieronder geven we per dataset (de iSales, Strava en Facebook datasets) een aantal challenges waar je dmv data analyse een antwoord en een advies over kan geven. Je moet dus zelf een notebook aanmaken en de juiste stappen & bewerkingen doen (wellicht kun je hergebruik maken van de andere oefenopgaves) en passende visualisaties kiezen om je boodschap over te brengen.
 
 # Doel
 - Je kan, als je deze oefeningen doet, een eenvoudige vraag vertalen naar benodigde bewerkingen en visualisaties
