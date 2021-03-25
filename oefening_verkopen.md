@@ -1,6 +1,7 @@
 ---
 permalink: /oefening_verkopen.html
 title: "Oefening: Verkopen"
+categories: orientatie
 ---
 
 In deze oefening ga je aan de slag met een bestaand Notebook om het wat leesbaarder te maken en pas je een paar basis functies uit de taal R toe.

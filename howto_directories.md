@@ -1,6 +1,7 @@
 ---
 permalink: /howto_directories.html
 title: "Howto guides - file management"
+categories: howto
 ---
 # File management en directories
 De manier waarop RStudio werkt met directories is afhankelijk van je besturingssysteem en accountinstellingen. Vaak moet je via de file explorer rechtsonder iedere keer navigeren naar de map waar je (netjes als je bent) al je werk in R in submappen hebt staan.

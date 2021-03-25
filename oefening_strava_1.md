@@ -1,6 +1,7 @@
 ---
 permalink: /oefening_strava_1.html
 title: "Oefening: Strava Cycling data"
+categories: orientatie
 ---
 
 In deze oefening ga je aan de slag met een bestaand Notebook waarin er een start wordt gemaakt met een data vraag, en je gaandeweg steeds meer zelf kan/moet aanpassen. Er komen wellicht wat moeilijkere functies voorbij, maar met de meeste tidyverse statements zou je je vrij snel comfortable moeten voelen.

@@ -1,6 +1,7 @@
 ---
 permalink: /howto_install_libraries.html
 title: "Howto guides"
+categories: howto
 ---
 # Over libraries (packages)
 Omdat je niet iedere keer het wiel opnieuw wil uitvinden, kun je gebruik maken van setjes voorgedefinieerde functionaliteit. Zie Rstudio als een kale Word of Excel, waarbij je de ribbon vult met knoppen door zelf libraries (of packages zoals programmeurs zeggen) toe te voegen.

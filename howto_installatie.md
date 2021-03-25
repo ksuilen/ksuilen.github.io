@@ -1,6 +1,7 @@
 ---
 permalink: /howto_installatie.html
 title: "Howto guides - installatie"
+categories: howto
 ---
 # Gebruiken en installeren van R & RStudio
 Op deze pagina vind je informatie over het gebruiken en installeren van R & RStudio en over de Notebooks die we daarin aanmaken. 

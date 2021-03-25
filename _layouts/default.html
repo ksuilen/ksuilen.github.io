@@ -26,6 +26,30 @@
     </section>
 
     <section class="main-content">
+      <div class="breadcrumbs">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="/">Home</a>
+          </li>
+        
+          {%- for category in page.categories -%}
+          {%-   assign crumb = site.data.breadcrumbs[category] -%}
+          {%-   if crumb -%}
+          <li class="breadcrumb-item">
+            <a href="{{ crumb.url | prepend: crumb.home }}">
+              {{ crumb.title }}
+            </a>
+          </li>
+          {%-   endif -%}
+          {%- endfor -%}
+        
+          <li class="breadcrumb-item active">
+            <a href="{{ page.url | prepend: site.baseurl }}">
+              {{ page.title }}
+            </a>
+          </li>
+        </ol>
+      </div>
       {{ content }}
 
       <footer class="site-footer">

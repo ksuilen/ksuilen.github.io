@@ -1,6 +1,7 @@
 ---
 permalink: /oefening_verkopen_visualiseren2.html
 title: "Oefening: Verkopen - Visualiseren 2"
+categories: orientatie
 ---
 
 In deze oefening ga je aan de slag met een bestaand Notebook om het te voorzien van een paar eenvoudige grafieke op basis van andere R commando's en tweak je de weergave van de grafieken.

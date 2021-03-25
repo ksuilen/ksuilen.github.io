@@ -1,6 +1,7 @@
 ---
 permalink: /howto_import_datasets.html
 title: "Howto guides - importing data"
+categories: howto
 ---
 # Data bronnen
 R is bij uitstek geschikt om data uit diverse bronnen te importeren en te gebruiken. Vaak zul je met gestructureerde data (data in bijvoorbeeld tabelvorm) werken, maar R kan ook met ongestructureerde data (zoals tekst) werken.  
@@ -23,6 +24,7 @@ Voor alle soorten textbestanden geldt dat je even moet checken met behulp van Ex
 In dit [**support artikel**](https://support.rstudio.com/hc/en-us/articles/218611977-Importing-Data-with-RStudio) wordt uitgelegd hoe je data in dit soort bestanden kunt importeren in RStudio.
 Een paar aandachtspunten:
 - Als je de import dataset wizard gebruikt voor Excel/CSV
+    - CSV bestanden gebruiken een scheidingsteken (een komma, tab of semicolon). Dat heet de `delimiter`. In je import statement zal dat dus ergens terug komen.
     - Kopieer de code die rechtsonder in het venstertje `code preview` wordt getoond, **behalve** het `View(...)` stukje.
     - Plak dat stuk code in een chunk, liefst bovenin je Notebook, ergens nadat je libraries hebt geladen.
     - Run de chunk om te controleren.   

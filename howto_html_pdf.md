@@ -1,6 +1,7 @@
 ---
 permalink: /howto_html_pdf.html
 title: "Howto guides - html & pdf genereren"
+categories: howto
 ---
 # Notebooks exporteren
 Je kunt via R studio je Notebooks naar verschillende bestandsformaten: als HTML file of als PDF.

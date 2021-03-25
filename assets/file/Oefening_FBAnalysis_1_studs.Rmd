@@ -77,7 +77,7 @@ Visualisatie van het verband mbv een grafiek waarbij je de individuele data punt
 
 ### Vraag 2: Onderzoek of de campagnes evenredig over mannen en vrouwen worden gehouden
 - selecteer de juiste gegevens
-- filter op campagne 936
+- filter op campagne 1178
 - aggregeer gegevens naar geslacht & interne campagne id
 - visualiseer naar geslacht & leeftijd voor een campagne naar keuze
 

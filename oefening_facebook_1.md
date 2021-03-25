@@ -1,6 +1,7 @@
 ---
 permalink: /oefening_facebook_1.html
 title: "Oefening: Facebook advertising data"
+categories: orientatie
 ---
 
 In deze oefening ga je aan de slag met een bestaand notebook waarin er een start wordt gemaakt met een data vraag, en je gaandeweg steeds meer zelf kan/moet aanpassen. De meeste tidyverse statements zou je moeten kunnen gebruiken. Bij de visualistie zijn enkele onbekende extraatjes toegevoegd.

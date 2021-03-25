@@ -1,6 +1,7 @@
 ---
 permalink: /oefening_verkopen_visualiseren.html
 title: "Oefening: Verkopen - Visualiseren"
+categories: orientatie
 ---
 
 In deze oefening ga je aan de slag met een bestaand Notebook om het te voorzien van een paar eenvoudige grafieken.

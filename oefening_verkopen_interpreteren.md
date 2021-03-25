@@ -1,6 +1,7 @@
 ---
-permalink: /oefening_verkopen.html
+permalink: /oefening_verkopen_interpreteren.html
 title: "Oefening: Verkopen"
+categories: orientatie
 ---
 
 In deze oefening ga je aan de slag met een bestaand Notebook dat je misschien al eerder hebt gezien. In één van de conclusies zit een foutje... Kun jij hem opsporen en rechtzetten?
