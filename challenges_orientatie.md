@@ -4,14 +4,14 @@ title: "Orientatie - Challenges "
 categories: orientatie
 ---
 
-Hieronder geven we per dataset (de iSales, Strava en Facebook datasets) een aantal challenges waar je dmv data analyse een antwoord en een advies over kan geven. Je moet dus zelf een notebook aanmaken en de juiste stappen & bewerkingen doen (wellicht kun je hergebruik maken van de andere oefenopgaves) en passende visualisaties kiezen om je boodschap over te brengen.
+Hieronder geven we per dataset (de iSales, Strava en Facebook datasets) een aantal challenges waar je middels data analyse een antwoord en een advies over kunt geven. Je moet dus zelf een Notebook aanmaken en de juiste stappen & bewerkingen doen (wellicht kun je stukken uit oefenopgaves hergebruiken?) en passende visualisaties kiezen om je boodschap over te brengen.
 
 # Doel
-- Je kan, als je deze oefeningen doet, een eenvoudige vraag vertalen naar benodigde bewerkingen en visualisaties
-- Je kan verantwoorden hoe je een vraag hebt aangepakt en resultaten duiden
+- Je kunt, als je deze oefeningen doet, een eenvoudige vraag vertalen naar benodigde bewerkingen en visualisaties
+- Je kunt verantwoorden hoe je een vraag hebt aangepakt en resultaten duiden
 
 # Oplevering
-Per challenge maak je een notebook waarin je je aanpak, code en resultaten verwerkt. Laat zien dat je ook qua opmaak (Markdown) een bergijpelijk document kan opleveren.
+Per challenge maak je een Notebook waarin je je aanpak, code en resultaten verwerkt. Laat zien dat je ook qua opmaak (Markdown) een bergijpelijk document kunt opleveren.
 
 # Challenges
 ## Challenge 1 - ISales dataset
@@ -21,7 +21,7 @@ Per challenge maak je een notebook waarin je je aanpak, code en resultaten verwe
 - Welk product kunnen we uit het assortiment gaan halen?
 
 ## Challenge 2 - Strava dataset
-- Kun je een verband vinden tussen de maand en de starttijd van een rit (deze kun je mbv het `hour` statement uit de `lubridate` library bepalen)?
+- Kun je een verband vinden tussen de maand en de starttijd van een rit (deze kun je met de functie `hour` uit de `lubridate` library bepalen)?
 - Hoeveel verschillende fietsen (gear_id) zijn er gebruikt?
 - Met welke fiets wordt het snelste gefietst?
 - Worden de ritten langer als de dagen langer worden?
@@ -37,4 +37,3 @@ Per challenge maak je een notebook waarin je je aanpak, code en resultaten verwe
 - [Dataset iSales](/assets/file/dataset_verkopen.xlsx)
 - [Dataset Strava](/assets/file/dataset_mystravadata.csv)
 - [Facebook Dataset](/assets/file/KAG_conversion_data.csv)
-

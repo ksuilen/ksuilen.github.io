@@ -22,17 +22,17 @@ Bekijk wat je hiervan nodig hebt, misschien heb je de extra uitleg niet eens nod
 - [How to: Notebooks exporteren](howto_html_pdf) waarin wordt uitgelegd hoe je je Notebook kunt omvormen tot iets dat je in kunt leveren.
 
 
-# Oefeningen - Transformeren & bewerken
+# Oefeningen - Transformeren & bewerken (tidyverse)
 - [Oefening: Verkopen](oefening_verkopen) \* - Zeer basic chunks in een Notebook met leesbare, opgemaakte tekst er omheen
 - [Oefening Strava 1](oefening_strava_1) \*\*\* - Als je de eerste cursussen in tidyverse hebt gedaan en weet hoe een group_by werkt en je meerdere statements kunt combineren
 - [Oefening: Facebook ad analysis](oefening_facebook_1) \*\*\* - Deze oefening bevat vragen waarbij je al de skills uit de oriëntatie nodig hebt
 
-# Oefeningen - Interpreteren
-- [Oefening: Verkopen](oefening_verkopen_interpreteren) \*\* - Er zit een foutje in een conclusie bij een Notebook dat je eerder gebruikt hebt, kun jij hem vinden?
-
-# Oefeningen - Visualiseren
+# Oefeningen - Visualiseren (ggplot)
 - [Oefening: Verkopen - Visualiseren](oefening_verkopen_visualiseren) \* - Basisvaardigheden voor visualisatie oefenen in een echt Notebook terwijl je weet hoe het eruit moet gaan zien
 - [Oefening: Verkopen - Visualiseren 2](oefening_verkopen_visualiseren2) \*\*\* - Visualisaties gecombineerd met tidyverse commando's zoals group_by en tweaks aan weergave
+
+# Oefeningen - Interpreteren
+- [Oefening: Verkopen](oefening_verkopen_interpreteren) \*\* - Er zit een foutje in een conclusie bij een Notebook dat je eerder gebruikt hebt, kun jij hem vinden?
 
 # Challenges
 Hier vind je een aantal vragen (van diverse complexiteit) per dataset. Deze kun je gebruiken als bewijs om te laten zien dat je de juiste skills voor R, tidyverse en ggplot in huis hebt.
