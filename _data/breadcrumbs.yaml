@@ -1,14 +1,11 @@
 orientatie:
   title: Toolbox orientatie
   home: /toolbox_orientatie
-  url: /
 
 howto:
   title: Howto
   home: /index_howtos
-  url: /
 
 cheatsheets:
   title: Cheatsheets
   home: /index_cheatsheets
-  url: /
