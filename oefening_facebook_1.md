@@ -19,7 +19,7 @@ In deze oefening ga je een aantal dingen gebruiken, waar je van te voren even na
 **Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheetsheets) (of zoek andere bronnen) als je ergens niet uit komt!
 
 # Opgave
-1. Laadt het Notebook en de dataset in RStudio (zie bronbestanden hieronder)
+1. Laad het Notebook en de dataset in RStudio (zie bronbestanden hieronder)
 2. Gebruik Markdown om de opmaak van de tekst rondom de R chunks (na "knitten" tot html of pdf) netjes te krijgen.
 3. Zorg dat de R chunks ingevuld worden, zodat de gewenst output verschijnt (zie voorbeeld PDF-bestand)
 4. "Knit" je Notebook naar een html en check

@@ -44,12 +44,12 @@ ol.breadcrumb {
   
   /* Add a color to all links inside the list */
   ol.breadcrumb li a {
-    color: #0275d8;
+    color: $color-purple;
     text-decoration: none;
   }
   
   /* Add a color on mouse-over */
   ol.breadcrumb li a:hover {
-    color: #01447e;
+    color: $color-purple;
     text-decoration: underline;
   }

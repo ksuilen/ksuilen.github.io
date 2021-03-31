@@ -1,0 +1,66 @@
+---
+title: "Strava analysis - deel 2"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+# Over de data
+Strava is een social platform waar je ritgegevens, hardloopgegevens etc in kan bijhouden. in deze opgave maken we gebruik van een beperkte dataset uit dit platform
+# Setup van document
+Inlezen libraries
+```{r message=FALSE, warning=FALSE, echo=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+```
+Inlezen data
+
+```{r message=FALSE, warning=FALSE, echo=FALSE}
+act_data <- read_delim("dataset_mystravadata.csv", 
+    ";", escape_double = FALSE, trim_ws = TRUE)
+```
+
+# Vragen
+In dit notebook gaan we vooral met tijdgebaseerde gegevens werken. Bij het inlezen heeft R al zelf bepaald dat de kolom `start_date` het datatype POSIXct (datum/tijd)  is. we hebben echter nog een tijdsgebaseerde kolom: `moving_time`
+de functie `hms::as_hms` kan van een getal een hour/minute/second maken:
+
+## 1. Maak een nieuwe kolom aan met de tijdsduur in uren/minuten/seconden
+
+```{r echo=FALSE}
+strava_data <- act_data %>%
+  # maak een nieuwe kolom 'timespan' aan met daarin de hms van moving time
+
+```
+
+## 2. Duur activiteiten per per kwartaal
+Per activiteit will we het aantal per kwartaal weten. Daarvoor heb je de `quarter` functie nodig icm een aantal bekende functies. alleen activiteiten die meer dan 3x zijn gedaan hoeven meegenomen te worden & sorteer op type
+- Bepaal per activiteit in welk kwartaal deze plaatsvond
+- groepeer op 2 items
+- tel iets op & formatteer weer als hms
+- filter
+- sorteer
+Wat kun je concluderen?
+
+```{r echo=FALSE}
+#...
+```
+## 3. Gebruik van gear per maand in kwartaal 4
+We hebben nu een functie nodig om de maand te extraheren en gaan per & per gear maand tellen
+- 2 nieuwe kolommen toevoegen
+- filteren & lege rijen weghalen
+- groeperen
+- tellen
+Wat concludeer je?
+
+```{r echo=FALSE}
+#..
+```
+### 4. Wat zijn de 2 meest recent aangeschafte fietsen en hoe lang gaan ze mee?
+- tijd tussen activiteit en **vandaag** bepalen mbv `difftime`
+- minimaal verschil per gear_id
+
+```{r echo=FALSE}
+#..
+```
+
