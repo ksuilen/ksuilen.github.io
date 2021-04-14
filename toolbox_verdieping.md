@@ -19,9 +19,10 @@ Bekijk wat je hiervan nodig hebt, misschien heb je de extra uitleg niet eens nod
 
 
 # Oefeningen - Databases
-- [Oefening: Raar modelletje](oefening_raar_model) \* - Een verhaaltje en een ERD, wat klopt er niet aan het ERD?
+- [Oefening: Structuur naar ERD](oefening_structuur) \* - Gestructureerde sets gegevens waar een ERD van getekend moet worden
+- [Oefening: Raar modelletje](oefening_raar_model) \*\* - Een verhaaltje en een ERD, wat klopt er niet aan het ERD?
 - [Oefening: Ontwerp je ideale model](oefening_ideale_model) \*\* - Een niet te moeilijk verhaaltje waarbij jij het model mag tekenen
-- [Oefening: Tricky modellering](oefening_tricky_model) \*\*\* - Een lastiger casus om te modelleren, waar niet perse maar één goed antwoord voor is
+- [Oefening: Tricky modellering](oefening_tricky_model) \*\*\* - Een lastiger casus om te modelleren
 
 # Oefeningen - SQL
 - [Oefening: Films](oefening_films) \* - Basis SQL statements
