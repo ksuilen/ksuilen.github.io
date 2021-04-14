@@ -1,6 +1,10 @@
 orientatie:
-  title: Toolbox orientatie
+  title: Toolbox oriëntatie
   home: /toolbox_orientatie
+
+verdieping:
+  title: Toolbox verdieping
+  home: /toolbox_verdieping
 
 howto:
   title: Howto
