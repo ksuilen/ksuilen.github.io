@@ -15,22 +15,28 @@ We stappen in een tijdmachine en gaan terug in de tijd naar een  videoverhuurbed
 - SQL basis + subqueries en joins
 
 # Opgave
-Importeer de database en zorg dat je bij de database kunt om er SQL statements op uit te voeren.   
-Schrijf SQL statements om de volgende vragen te beantwoorden en sla je statement plus de output op.   
+- Importeer de database op een manier zodat je er via RStudio bij kunt;
+- Maak een Notebook aan en leg connectie naar de database;
+- Maak per vraag (zie hieronder) een SQL chunk aan met boven de chunk de vraag en in de chunk de SQL statements om de vraag te beantwoorden.
+
+**Tips**: 
+- Misschien is het handig om eerst een ERD te tekenen, om inzicht te krijgen hoe de database in elkaar zit;
+- Schrijf net onder de vraag je stappenplan op, help jezelf om complexere vragen in stukjes op te breken (zie voorbeeld voor vraag 1 en 2 in het bestand met verwachte uitkomsten) 
+
 
 Vragen:
 1. Hoe luidt de langste filmtitel? 
 2. Welke films behoren tot hetzelfde genre als de film 'Batman'? 
-3. Welke films duren evenlang als de film El Cid en behoren tot hetzelfde genre? 
+3. Welke films duren even lang als de film El Cid en behoren tot hetzelfde genre? 
 4. Welke films hebben regisseurs die oorlogfilms gemaakt hebben, nog meer gemaakt? Geef het regisseurnummer, filmtitel en het genre en sorteer daarbij op regisseurnummer. 
-5. Geef de titel en de speelduur van de langste Tekenfilm? 
+5. Geef de titel en de speelduur van de langste Tekenfilm.
 6. Geef het genre, de titel en de speelduur van alle films die binnen hun genre het langst zijn. Sorteer op genre en daarbinnen op titel. 
-7. Welke films, gemaakt voor 1940, zijn net zolang als de kleinste Western die tussen 1950 en 1960 is gemaakt? 
+7. Welke films, gemaakt voor 1940, zijn net zo lang als de kortste Western die tussen 1950 en 1960 is gemaakt? 
 8. Welke leden zijn het kortst lid? Geef naam en datum toetreding. 
 9. Welke leden zijn het langst lid? Geef naam en datum toetreding. 
 10. Welke films zijn door Don Siegel geregisseerd? Geef titel. 
 11. Welke regisseur regisseerde de film Cliffhanger? 
-12. Welke na oorlogse regisseurs hebben nog nooit actiefilms gemaakt? Geef naam regisseur. 
+12. Welke na-oorlogse regisseurs hebben nog nooit actiefilms gemaakt? Geef naam regisseur. 
 13. Welke regisseurs hebben UITSLUITEND actiefilms gemaakt? Geef naam regisseur. 
 14. Welke films hebben al meer opgebracht dan €125, door verhuur, als we aannemen dat de gemiddelde verhuurprijs €5, per keer bedraagt. 
 15. Welke films zijn nog niet uitgebracht op band? 
@@ -49,6 +55,9 @@ Vragen:
 28. Wie speelde in welke film de rol van Buffalo Bill? 
 29. In welke, door hen zelf geregisseerde films, spelen de regisseurs een rol(letje)? Geef naam regisseur, de titel van de film en de rolnaam die zij in hun film speelde. 
 30. Wat is de langste film, uitgebracht door Warner Bros, waarin Sylvester Stallone een rol heeft?
+31. Welke thrillers worden slechts op 1 band uitgebracht? Sorteer het overzicht op titel. 
+32. Van welke regisseurs zijn drie of meer films bekend? 
 
 ## Materialen:
 - [Database](assets/file/DATABASE_FILM.zip)
+- [Verwachte uitkomsten](assets/file/films3.pdf) (wordt nog toegevoegd)

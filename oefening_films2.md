@@ -15,8 +15,11 @@ We stappen in een tijdmachine en gaan terug in de tijd naar een  videoverhuurbed
 - SQL basis + GROUP BY en HAVING
 
 # Opgave
-Importeer de database en zorg dat je bij de database kunt om er SQL statements op uit te voeren.   
-Schrijf SQL statements om de volgende vragen te beantwoorden en sla je statement plus de output op.   
+- Importeer de database op een manier zodat je er via RStudio bij kunt;
+- Maak een Notebook aan en leg connectie naar de database;
+- Maak per vraag (zie hieronder) een SQL chunk aan met boven de chunk de vraag en in de chunk de SQL statements om de vraag te beantwoorden.
+
+**Tip**:  Misschien is het handig om eerst een ERD te tekenen, om inzicht te krijgen hoe de database in elkaar zit.     
 
 Vragen:
 1. Hoeveel filmtitels bestaan er per waardering? 
@@ -31,8 +34,7 @@ Vragen:
 10. Geef het aantal verschillende waarderingen van de films uit het genre Tekenfilm. 
 11. Hoeveel leden per woonplaats genieten een bonus? Geef woonplaats en aantal en sorteer op woonplaats. 
 12. Hoeveel leden per woonplaats zijn er? 
-13. Welke thrillers worden slechts op 1 band uitgebracht? Sorteer het overzicht op titel. 
-14. Van welke regisseurs zijn drie of meer films bekend? 
 
 ## Materialen:
 - [Database](assets/file/DATABASE_FILM.zip)
+- [Verwachte uitkomsten](assets/file/films2.pdf) (wordt nog toegevoegd)

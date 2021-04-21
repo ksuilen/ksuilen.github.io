@@ -11,12 +11,17 @@ We stappen in een tijdmachine en gaan terug in de tijd naar een  videoverhuurbed
 - Basis SQL commando's toepassen
 
 # Voorkennis
-- Importeren van een database;
+- Importeren van een database (zie ook de Howto die hierover gaat);
 - SQL basis (select, from, where, distinct, in, not, null, between, like, and, or, not & basisfuncties rekenen: max, min, count, sum, avg).
 
+**Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheetsheets) (of zoek andere bronnen) als je ergens niet uit komt!
+
 # Opgave
-Importeer de database en zorg dat je bij de database kunt om er SQL statements op uit te voeren.   
-Schrijf SQL statements om de volgende vragen te beantwoorden en sla je statement plus de output op.   
+- Importeer de database op een manier zodat je er via RStudio bij kunt;
+- Maak een Notebook aan en leg connectie naar de database;
+- Maak per vraag (zie hieronder) een SQL chunk aan met boven de chunk de vraag en in de chunk de SQL statements om de vraag te beantwoorden.
+
+**Tip**:  Misschien is het handig om eerst een ERD te tekenen, om inzicht te krijgen hoe de database in elkaar zit.   
 
 Vragen:
 1. Geef de titel en de speelduur van alle Westerns op volgorde van titel. 
@@ -46,3 +51,4 @@ Vragen:
 
 ## Materialen:
 - [Database](assets/file/DATABASE_FILM.zip)
+- [Verwachte uitkomsten](assets/file/films.pdf) (wordt nog toegevoegd)
