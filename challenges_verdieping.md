@@ -1,5 +1,5 @@
 ---
-permalink: /challenges_verdipeing.html
+permalink: /challenges_verdieping.html
 title: "Verdieping - Challenges "
 categories: verdieping
 ---
