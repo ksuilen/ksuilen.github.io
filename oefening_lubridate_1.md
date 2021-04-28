@@ -1,6 +1,6 @@
 ---
 permalink: /oefening_lubridate_1.html
-title: "Oefening: Films"
+title: "Oefening: Strava data 2"
 categories: verdieping
 ---
 

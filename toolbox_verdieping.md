@@ -30,7 +30,7 @@ Bekijk wat je hiervan nodig hebt, misschien heb je de extra uitleg niet eens nod
 - [Oefening: Films 3](oefening_films3) \*\*\* - SQL statements met joins en subqueries
 
 # Oefeningen - Datum/tijd manipulatie (lubridate)
-- [Oefening: Strava 2](Oefening_lubridate_1) \*\* - mixed lubridate en tidyverse statements
+- [Oefening: Strava 2](oefening_lubridate_1) \*\* - mixed lubridate en tidyverse statements
 
 # Oefeningen - Visualiseren (ggplot)
 
