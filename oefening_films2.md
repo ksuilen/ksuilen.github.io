@@ -37,4 +37,4 @@ Vragen:
 
 ## Materialen:
 - [Database](assets/file/DATABASE_FILM.zip)
-- [Verwachte uitkomsten](assets/file/films2.pdf)
+- [Verwachte uitkomsten](assets/file/Films2.pdf)
