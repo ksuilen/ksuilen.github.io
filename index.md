@@ -20,7 +20,7 @@ Voordat je met de materialen op deze site aan de slag gaat, raden we ten zeerste
 ## [Toolbox Oriëntatie](toolbox_orientatie)
 Een introductie in data analyse en visiualisatie, bedoeld voor startsemester ICT & Business. De [Toolbox Oriëntatie](toolbox_orientatie) bevat allerlei oefeningen en een paar challenges.
 
-## Toolbox Verdieping
+## [Toolbox Verdieping](toolbox_verdieping)
 Materialen voor de verdiepende fase, met complexere vraagstukken m.b.t. analyse, transformatie en visualisatie van data in R en een introductie in SQL. De [Toolbox Verdieping](toolbox_verdieping) bevat ook allerlei oefeningen en een paar challenges.
 
 ## [Howto's](index_howtos)
