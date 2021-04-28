@@ -4,7 +4,7 @@ title: "Verdieping - Challenge "
 categories: verdieping
 ---
 
-In de oriëntatie kon je eventueel gebruik maken van losse challenges om je vaardigheden aan te tonen. Voor de verdieping ga je echt aan de slag met eigen (mock)data die gerelateerd is aan je proftaak. Op oefeningen alleen red je het niet in de verdieping, er moet een koppeling zijn met het proftaakproject waarin je alle vereiste vaardigheden laat zien.    
+Voor de verdieping ga je echt aan de slag met eigen (mock)data die gerelateerd is aan je proftaak.
 
 Dingen waar je op kunt letten tijdens de proftaak:
 * Vrij in het begin van je proftaakproject zul je (hopelijk samen met SOFT en INFRA studenten) nadenken over één of meerdere databases om te gebruiken binnen jullie project. Als BUSN student, stel jij daar het ERD voor op en documenteer je aannames en keuzes die ten grondslag liggen aan dat ERD.   

@@ -35,6 +35,7 @@ Bekijk wat je hiervan nodig hebt, misschien heb je de extra uitleg niet eens nod
 # Oefeningen - Visualiseren (ggplot)
 
 
-# Challenge
-In de oriëntatie kon je eventueel gebruik maken van losse challenges om je vaardigheden aan te tonen. Voor de verdieping ga je echt aan de slag met eigen (mock)data die gerelateerd is aan je proftaak. Op oefeningen alleen red je het niet in de verdieping, er moet een koppeling zijn met het proftaakproject waarin je alle vereiste vaardigheden laat zien. De pagina voor de challenge in de verdieping geeft daar wat extra informatie en tips voor.
+# [Challenge](challenges_verdieping)
+In de oriëntatie kon je eventueel gebruik maken van losse challenges om je vaardigheden aan te tonen. Voor de verdieping ga je echt aan de slag met eigen (mock)data die gerelateerd is aan je proftaak. Op oefeningen alleen red je het niet in de verdieping, er moet een koppeling zijn met het proftaakproject waarin je alle vereiste vaardigheden laat zien.   
+De pagina voor de challenge in de verdieping geeft daar wat extra informatie en tips voor.
 [Verdieping challenge](challenges_verdieping)
