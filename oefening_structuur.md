@@ -28,10 +28,10 @@ Teken het ERD en beantwoord de vragen onder de tabel.
 | RESERVERING   | **_artikelnummer_**, **_pasnummer_**, reserveringsdatum   |
 | STUDENT       | **_pasnummer_**, naam, klas                               |
 
-Vragen:
-* (a) Leg uit of student Jan het item "Arduino Rich Shield" meerdere malen tegelijk kan reserveren. Waarom wel of niet?
-* (b) Leg uit of student Jan en Marian gelijktijdig een item met artikelnummer 90343211234 geleend kunnen hebben. Waarom wel of niet?
-* (c) Leg uit of medewerker Piet het item "Ultrosone sensor" kan lenen. Waarom wel of niet?
+Vragen:   
+(a) Leg uit of student Jan het item "Arduino Rich Shield" meerdere malen tegelijk kan reserveren. Waarom wel of niet?   
+(b) Leg uit of student Jan en Marian gelijktijdig een item met artikelnummer 90343211234 geleend kunnen hebben. Waarom wel of niet?   
+(c) Leg uit of medewerker Piet het item "Ultrosone sensor" kan lenen. Waarom wel of niet?   
 
 2. Er zijn twee maneges vlakbij Tilburg: Manege Boszicht en Manege Hoefslag. Hieronder vind je voor beide de gegevensstructuur.   
 De eigenschappen die **_dikgedrukt en schuin_** worden weergegeven, zijn de uniek identificerende eigenschappen.   
@@ -55,7 +55,7 @@ Teken voor beide maneges een eigen ERD en beantwoord daarna de vragen verderop.
 | PONY          | **_ponynaam_**, ras, leeftijd, schofthoogte, moeder, vader    |   
 
 Vragen:   
-* (a) Leg uit of ruiter Femke op manege Boszicht het paard Fury meerdere malen kan reserveren. Wanneer wel en wanneer niet?
-* (b) Leg voor beide maneges uit of Femke en Suzanne hetzelfde paard bij die manege op dezelfde dag kunnen reserveren. Waarom wel of niet?
-* (c) Leg uit of manege Boszicht meerdere paarden hebben met de naam Fury. Waarom wel of niet?
-* (d) Leg uit of ruiter Femke op manege Hoefslag op hetzelfde moment zowel een paard als een pony kan reserveren. Waarom wel of niet?
+(a) Leg uit of ruiter Femke op manege Boszicht het paard Fury meerdere malen kan reserveren. Wanneer wel en wanneer niet?    
+(b) Leg voor beide maneges uit of Femke en Suzanne hetzelfde paard bij die manege op dezelfde dag kunnen reserveren. Waarom wel of niet?     
+(c) Leg uit of manege Boszicht meerdere paarden kan hebben met de naam Fury. Waarom wel of niet?    
+(d) Leg uit of ruiter Femke op manege Hoefslag op hetzelfde moment zowel een paard als een pony kan reserveren. Waarom wel of niet?
