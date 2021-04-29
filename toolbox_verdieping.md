@@ -31,7 +31,7 @@ Bekijk wat je hiervan nodig hebt, misschien heb je de extra uitleg niet eens nod
 
 # Oefeningen - Datum/tijd manipulatie (lubridate)
 - [Oefening: Strava 2](oefening_lubridate_1) \*\* - mixed lubridate en tidyverse statements
-
+- [Oefening: KlantArtikel 1](oefening_lubridate_2) \*\*\* - mixed lubridate, tidyverse en ggplot statements
 # Oefeningen - Visualiseren (ggplot)
 
 
