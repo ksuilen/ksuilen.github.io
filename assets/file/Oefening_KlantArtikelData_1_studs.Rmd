@@ -1,0 +1,158 @@
+---
+title: "KlantArtikel Queries"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+## Uitleg
+We maken gebruik van dat die in een SQLite database zit, een zogenaamde 'portable' database.  Deze database bevat allerlei verkoopdata.
+Iedere gele in de data staat voor een zogenaamde verkoopregel: op een besetelling kunnen meerdere producten besteld/gekocht zijn. 1 regel is dus 1 zo'n verkoopregel. Er kunnen meerdere verkoopregels bij een bestelling horen.
+## Setup
+Voordat we aan de slag kunnen, moeten er altijd 2 zaken geregeld worden:
+
+- De juiste libraries (voorgedefinieerde functies) inladen. als die er niet zijn, moeten we ze installeren mbv het `install.packages('naam library')` commando in de console
+- De benodigde data inladen.
+
+```{r}
+library(tidyverse)
+library(RSQLite)
+library(ggplot2)
+library(lubridate)
+library(dplyr)
+conn <- dbConnect(RSQLite::SQLite(), "CustomerSales.db")
+```
+
+Vervolgens laden we de data in via een SQL query en maken deze in R beschikbaar als data frame dmv de parameter `output.var` toe te voegen in de kop van de chunk.
+```{sql connection=conn, output.var = "Salesdata"}
+Select * FROM factSales
+```
+En we kunnen nu disconnecten
+```{r}
+dbDisconnect(conn = conn)
+```
+### Stap 1: Data prepareren: Datums bruikbaar maken
+De datumkolom in deze dataset is nog niet van een bruikbaar datumtype. Converteer deze naar een datumtype. Er blijkt iets mis te zijn in de datering, waardoor je overal 6 jaar bij op moet tellen. Maak daarvoor een kolom `realdate` aan.
+
+```{r echo=FALSE}
+Salesdata <- Salesdata %>%
+#
+#
+head(Salesdata)
+```
+### Stap 2: Datum velden extraheren
+Nu we een relevant en bruikbaar jaartal hebben, is het ivm de rapportages die we willen gaan maken handig om per regel aparte kolommen te maken voor
+- Jaar
+- Kwartaal
+- Dag van de week (maandag tm zondag)
+```{r echo=FALSE}
+Salesdata <- Salesdata %>%
+#
+#
+#
+head(Salesdata)
+```
+### Stap 3 : overige kolommen in juist formaat
+Zoals je kan zien  wordt klantnummer als een integere gezien. Dat klopt op zich, maar tegelijkertijd is het niet iets waar we mee gaan rekenen. We kunnen klantnummer daarom beter als een factor gaan omzetten, want een klantnr 12 is niet 'meer' dan klantnr 11 bijvoorbeeld. Idem voor bestelnr en artikelnr
+```{r}
+Salesdata <- Salesdata %>%
+#
+#
+#
+head(Salesdata)
+```
+
+
+## Vraag 1 - Vergelijken kwartaalomzet
+Nu wat basale bewerkingen hebben gedaan, s het tijd om het wat moeilijker te gaan maken. We moeten een grafiek laten zien waarin we de omzetontwikkeling in Q1 per jaar moeten laten zien.
+
+### Aanpak
+
+- Alleen data uit Q1 behouden
+- Dag van het kwartaal toevoegen mbv `qday`
+- Per dag (per jaar) de omzet optellen. je hebt hier de functie `cumsum` voor nodig
+- Visualiseren met jaar als kleur
+```{r echo=FALSE}
+Vraag1 <- Salesdata %>%
+
+  #mutate(runningomzet = cumsum(omzet)) %>%
+head(Vraag1)
+```
+Nu kunnen we vrij eenvoudig de ontwikkeling visualiseren mbv een line chart
+
+```{r echo=FALSE}
+#
+```
+
+## Vraag 2 : Vergelijken verkoopaantallen productcategorien 40x  per seizoen
+We definieren onze seizoenen als volgt:
+- Hoogseizoen: zomertijd dagen
+- Laagseizoen: wintertijd dagen
+
+
+### Aanpak
+- Filteren van artikelnrs
+- Bepalen wintertijd/zomertijd bij een verkoopregel
+- Toevoegen seizoen obv zomer/wintertijd
+- Visualiseren
+
+**Let op** : het soort datum conversie dat je doet bepaalt wat je met de dataum kan. 
+- as.Date kent geen tijdzones, as.POSIXct wel. we moeten de besteldatum dus even omzetten
+- om een TRUE/FALSE (boolean/logical) te converteren naar een character, gebruiken we een mutate icm een if_else: `mutate(seizoen = if_else(is_zomertijd, "zomertijd","wintertijd"))`
+- de `dst` functie gebruik je om zomertijd te achterhalen
+
+```{r echo=FALSE}
+#
+```
+Per product kunnen we nu kijken of er meer van wordt verkocht in de zomer of winter. We zijn dus geinteresseerd in de verhoudingen.
+
+**let op:** artikelnummer wordt als numerieke waarde gezien, terwijl het eigenlijk een categorie (factor) is. daar moet je dmv een `as.factor` rekening mee houden.
+
+```{r echo=FALSE}
+
+```
+
+## Vraag 3 : Tijd tussen bestellingen per klant (top 10)
+Als laatste vraag voor deze oefening willen we eens onderzoek doen naar de tijd tussen bestellingen, bijvoorbeeld per klant, of gerelateerd aan aantal bestelingen.
+Als we de tijd tussen bestellingen weten, kunnen we daarmee beter en tijdiger deze kalnten benaderen met aanbiedingen of anticiperen met onze eigen inkoop.
+
+### Stap 1 - tijd tussen bestellingen
+- We kijken naar bestelnr's  en hebben dus gegevens per bestelling nodig. handig zijn: orderwaarde, aantal verschillende artikelen, dagen sinds vorige bestelling
+- We moeten dus eerst groeperen en een aantal optellingen & berekeningen uitvoeren. Door te sorteren op besteldatum kunnen we dmv de `lag` functie naar de vorige rij kijken en de besteldatums met elkaar vergelijken.
+
+```{r echo=FALSE}
+Vraag3 <- Salesdata %>%
+  group_by() %>%
+  #
+  #ungroup %>%
+  arrange(klantnr, besteldatum) %>%
+  group_by() %>% #opnieuw groeperen 
+  #iets met een lag
+head(Vraag3)
+```
+ 
+### Stap 2 - Data verkennen
+Nu we de tijd tussen bestellingen hebben berekend, kunnen we eens gaan kijken hoe die verschillen verdeeld zijn. Dat kan bv per klant dmv een boxplot op klant.
+
+```{r echo=FALSE}
+  #geom_boxplot()
+```
+Conclusie: Klant 11 heeft best een aantal outliers (lange tijd tussen bestellingen, bij klant 20 is de spreiding het grootst). Klant 14 en 19 hebben de kortste bestelduren
+
+## Vraag 4 - Omzet per dag van de week
+Als laatste vraag zijn we nog benieuwd naar de verdeling van de omzet naar dag van de week. zijn er weekdagen waarop er voor meer wordt besteld? Daarmee kunnen we de inkoop beter afstemmen.
+
+### Aanpak
+- Dag van de week bepalen obv besteldatum
+- Per bestelling de omzet berekenen
+- Omzet per klant per dag van de week berekenen en visualiseren
+
+```{r echo=FALSE}
+
+head(Vraag4)
+```
+Dit kunnen we mooi visualiseren met een stacked bar
+
+```{r echo=FALSE}
+
+```
+

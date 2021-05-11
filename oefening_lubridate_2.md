@@ -7,7 +7,7 @@ categories: verdieping
 In deze oefening ga je aan de slag met een bestaand Notebook waarin bewerkingen met datums gecombineerd worden met vragen waar je je eerdere tidyverse & ggplot kennis voor nodig hebt
 
 # Doel
-In dit notebook kun je oefenen met diverse datum en tijd bewerkingen, om zo de kneepjes van de `lubridate` library in de vingers te krijgen en te kunnen bepalen wanneer je welke functionaliteit kan gaan gebruiken
+In dit notebook kun je oefenen met diverse datum en tijd bewerkingen, om zo de kneepjes van de `lubridate` library in de vingers te krijgen en te kunnen bepalen wanneer je welke functionaliteit kan gaan gebruiken. Ook ga je wat diverse ggplot technieken gebruiken
 
 # Voorkennis
 Je weet hoe je de basis vaardigheden uit de orientatie (groeperen,  filteren etc) probleemloos kan toepassen en dat je gebruik kan maken van Markdown. Ook ben je vaardig met ggplot en 
@@ -24,5 +24,5 @@ Dit notebook bevat een aantal deelopgaven
 
 ## Materialen:
 - [Dataset](/assets/file/CustomerSales.db)
-- [Voorbeeld uitwerking](/assets/file/Oefening_KlantArtikel_1_docent.pdf)
-- [Oefen Notebook](/assets/file/Oefening_KlantArtikel_1.Rmd)
+- [Voorbeeld uitwerking](/assets/file/Oefening_KlantArtikelData_1_studs.pdf)
+- [Oefen Notebook](/assets/file/Oefening_KlantArtikelData_1_studs.Rmd)
