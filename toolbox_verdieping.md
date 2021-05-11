@@ -32,8 +32,9 @@ Bekijk wat je hiervan nodig hebt, misschien heb je de extra uitleg niet eens nod
 # Oefeningen - Datum/tijd manipulatie (lubridate)
 - [Oefening: Strava 2](oefening_lubridate_1) \*\* - mixed lubridate en tidyverse statements
 - [Oefening: KlantArtikel 1](oefening_lubridate_2) \*\*\* - mixed lubridate, tidyverse en ggplot statements
-# Oefeningen - Visualiseren (ggplot)
 
+# Oefeningen - Visualiseren (ggplot)
+- [Oefening: KlantArtikel 1](oefening_lubridate_2) \*\*\* - mixed lubridate, tidyverse en ggplot statements
 
 # [Challenge](challenges_verdieping)
 In de oriëntatie kon je eventueel gebruik maken van losse challenges om je vaardigheden aan te tonen. Voor de verdieping ga je echt aan de slag met eigen (mock)data die gerelateerd is aan je proftaak. Op oefeningen alleen red je het niet in de verdieping, er moet een koppeling zijn met het proftaakproject waarin je alle vereiste vaardigheden laat zien.   
