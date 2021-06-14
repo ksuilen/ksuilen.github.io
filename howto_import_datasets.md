@@ -1,6 +1,6 @@
 ---
 permalink: /howto_import_datasets.html
-title: "Howto guides - importing data"
+title: "Howto guides - importing data in R notebook"
 categories: howto
 ---
 # Data bronnen
