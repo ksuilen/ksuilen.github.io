@@ -26,6 +26,8 @@ Je moet hier **2 stappen** voor doen, in deze volgorde:
     Dit is de zogenaamde 'interpreter' die R code kan uitvoeren. Via [deze site](https://cloud.r-project.org/) kom je bij de download pagina uit. Check vervolgens welk besturingssysteem je nodig hebt en pak de meest recente installer (.exe voor Windows of .pkg voor Mac)
     2. Installeer de ontwikkelomgeving Rstudio.  
     Dit is de user interface waarin je handig je Notebooks (werkbestanden) kan bewerken, net zoiets als Visual Studio. Je kunt Rstudio [hier vinden](https://rstudio.com/products/rstudio/download/). Let op dat je de Free/Open Source versie pakt voor jouw besturingssysteem.  
+
+    Let op: Je zult als je zelf installeert ook de juiste libraries moeten installeren! Zie [deze HowTo](howto_install_libraries).
     
     Kom je er niet uit? [Er zijn voldoende tutorials te vinden](https://bfy.tw/QRhs).
 
