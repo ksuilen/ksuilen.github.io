@@ -12,7 +12,7 @@ Kennismaking met Notebooks, de opmaaktaal Markdown en zien hoe de stukjes R code
 # Voorkennis
 In deze oefening ga je een aantal dingen gebruiken, waar je van te voren even naar gekeken moet hebben:
 - RStudio (en daarin laad je een bestaand Notebook en een dataset)
-- Markdown
+- Markdown (**bold**/*italic*/_underscore_ zoals je kent uit Discord en dan nog iets met kopjes, zie [cheatsheets](index_cheatsheets)!)
 - R functies *filter* en *arrange* (en eventueel andere functies)
 
 **Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheetsheets) (of zoek andere bronnen) als je ergens niet uit komt!
