@@ -3,7 +3,7 @@ title: "Strava analysis"
 output: html_notebook
 ---
 # Over de data
-Strava is een social platform waar je ritgegevens, hardloopgegevens etc in kan bijhouden. in deze opgave maken we gebruik van een beperkte dataset uit dit platform
+Strava is een social platform waar je ritgegevens, hardloopgegevens etc in kan bijhouden. In deze opgave maken we gebruik van een beperkte dataset uit dit platform
 # Setup van document
 Inlezen libraries
 ```{r message=FALSE, warning=FALSE}
@@ -31,10 +31,10 @@ Stappenplan:
 
 ## Selecteren
 Ik heb niet alle kolommen nodig. via de [documentatie van Strava](https://developers.strava.com/docs/reference/) kan je achterhalen welke velden je tot je beschikking hebt.
-In dit voorbeeld heb ik die select vast gemaakt met behulp van deze chunk, en t resultaat opgeslagen in een nieuwe csv.
+In dit voorbeeld heb ik die select 'vast gemaakt' met behulp van deze chunk, en het resultaat opgeslagen in een nieuwe csv.
 ```{r}
 winterdata <- act_data %>%
-  select(distance,moving_time,start_date,gear_id,type)
+  select(...)
 ```
 ## Aanpassen/verrijken/opschonen - Transformeren
 ### Jaar en maand extraheren
@@ -44,7 +44,7 @@ winterdata <- act_data %>%
 head(year(winterdata$start_date))
 ```
 ### Toevoegen van nieuwe kolommen aan de dataset
-Als je een kolom wil toevoegen of wijzigen, dan gebruik je vaak de `mutate` functie voor. in dit geval willen we een kolom 'Jaar' toevoegen, waarbij dus het jaar uit de start_date wordt gehaald. we wijzen het resultaat toe aan dezelfde dataset (overschrijven de dataset dus)
+Als je een kolom wil toevoegen of wijzigen, dan gebruik je daar vaak de `mutate` functie voor. In dit geval willen we een kolom 'Jaar' toevoegen, waarbij dus het jaar uit de start_date wordt gehaald. We wijzen het resultaat toe aan dezelfde dataset (overschrijven de dataset dus)
 ```{r}
 winterdata <- winterdata %>%
   mutate("Jaar" = year(start_date))
@@ -52,13 +52,13 @@ winterdata <- winterdata %>%
 Datzelfde kan dus ook voor de maand
 ```{r}
 winterdata <- winterdata %>%
-  mutate("Maand" = month(start_date))
+  mutate(..)
 ```
 ### Aanpassen distance
-Als je goed kijkt, zie je dat de waardes in de distance kolom een beetje raar zijn. dat komt omdat er voorafgaand aan het inladen een komma verloren is gegaan. We moeten de waardes dus niet als meters interpreteren maar als decimeters! oftewel: delen door 10000 voor de  waardes in km!
+Als je goed kijkt, zie je dat de waardes in de distance kolom een beetje raar zijn. Dat komt omdat er voorafgaand aan het inladen een komma verloren is gegaan. We moeten de waardes dus niet als meters interpreteren maar als decimeters! oftewel: delen door 10000 voor de  waardes in km!
 ```{r}
 winterdata <- winterdata %>%
-  mutate( distance  = (distance/10000))
+  mutate( distance  = ..)
 ```
 
 ### Filteren
@@ -69,16 +69,16 @@ mbv een `%in%` kun je op meerdere condities checken
 
 ```{r}
 winterdata <- winterdata %>%
-  filter( type %in% c("Ride","VirtualRide"))
+  filter( ..)
 ```
 ## Analyseren
 Door gegevens als distance of moving time op te tellen (count of sum) per groep (maand, jaar, gear_id) kunnen we een beeld vormen van de activiteiten
 - We combineren vaak de `group_by` en de `summarize`
 ```{r}
  act_maand_jaar <- winterdata %>%
-  group_by(Jaar, Maand) %>%
-  summarize("afstand" = sum(distance)) %>%
-  arrange(desc(afstand))
+  group_by(Jaar, ..) %>%
+  summarize("afstand" = ..) %>%
+  arrange(..)
 
  act_maand_jaar
 ```
@@ -95,14 +95,13 @@ Met deze voorbeelden moet je dmv aanpassen en kopieren van code chunks de volgen
 - Filter de dataset op de betreffende maanden
 ```{r}
 winterdata_total <- winterdata %>%
-  filter(Maand %in% c(12,1,2))
+  filter(..)
 ```
 
 - Groepeer en tel op per jaar (en dus niet meer per maand)
 ```{r message=FALSE}
 winterdata_total <- winterdata_total %>%
- group_by(Jaar, Maand) %>%
- summarize("totaal" = sum(distance))
+..
 ```
 
 - Visualiseer mbv een `ggplot('jouw_datasetnaam', aes(x=Jaar, y='jouw_som_per_jaar')) en een `geom_col()`
@@ -120,12 +119,13 @@ winterdata_total <- winterdata_total %>%
 ```
 
 ## Vergelijk de tijdsbesteding in de winter
+We willen nu kijken hoeveel tijd ik per seizoen/jaar in de winter heb gefietst. dus bv 2013 vs 2017.
 - Je hebt nu moving_time nodig. deze is in seconden. wil je naar uren, deel dan door 3600
 - kopieer en plak van eerdere statements en pas aan
 
-## Snelheid?
-- Mbv distance en moving time kun je de snelheid bepalen.
-- gear_id staat voor de 2 soorten fietsen: een (meerdere :) ) racefietsen, een mtb, en  crossers. Kun je achterhalen welke welke is?
-- gebruik in een bestaande grafiek bv een `color = gear_id` in de het `aes` stuk
-- Verschilt de snelheid op een binnen of buiten rit? (type = virtualride vs Ride)
+## Wat kunnen we met de snelheid?
+- Mbv distance en moving time kun je de echte snelheid bepalen.
+- gear_id staat voor de 2 soorten fietsen: een (meerdere :) ) racefietsen, een mtb, en  crossers. Kun je achterhalen welke welke is? Hint: op de racefiets ben je het snelste..
+- Gebruik in een bestaande grafiek bv een `color = gear_id` in de het `aes` stuk
+- Verschilt de snelheid op een binnen of buiten rit? (type = virtualride vs Ride)?
 ...

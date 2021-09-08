@@ -3,7 +3,7 @@ permalink: /howto_mockdata.html
 title: "Howto guides - Mockdata"
 categories: howto
 ---
-# Waarom Mockdata?
+# Waarom Mockdata gebruiken?
 Mockdata, of testdata, is heel handig om bijvoorbeeld te oefenen met je vaardigheden of je Notebooks te prepareren voordat je de echte klantdata krijgt. Stel dat je bijvoorbeeld wacht op een export of database toegang, dan kun je door gebruik te maken van het datamodel van de dataset zelf vast oefendata maken. Ook kan goede testdata het makkelijker maken om te begrijpen wat er niet klopt als je tegen problemen aan loopt tijdens de ontwikkeling van je Notebook.
 
 # Bepalen eisen aan je mockdata
