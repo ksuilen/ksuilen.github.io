@@ -14,7 +14,7 @@ In deze oefening ga je een aantal dingen gebruiken, waar je van te voren even na
 - RStudio (en daarin laad je een bestaand Notebook en een dataset)
 - ggplot2 basis
 
-**Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheetsheets) (of zoek andere bronnen) als je ergens niet uit komt!
+**Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheatsheets) (of zoek andere bronnen) als je ergens niet uit komt!
 
 # Opgave
 1. Laad het Notebook en de dataset in RStudio (zie bronbestanden hieronder)

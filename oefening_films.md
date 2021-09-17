@@ -14,7 +14,7 @@ We stappen in een tijdmachine en gaan terug in de tijd naar een  videoverhuurbed
 - Importeren van een database (zie ook de Howto die hierover gaat);
 - SQL basis (select, from, where, distinct, in, not, null, between, like, and, or, not & basisfuncties rekenen: max, min, count, sum, avg).
 
-**Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheetsheets) (of zoek andere bronnen) als je ergens niet uit komt!
+**Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheatsheets) (of zoek andere bronnen) als je ergens niet uit komt!
 
 # Opgave
 - Importeer de database op een manier zodat je er via RStudio bij kunt;

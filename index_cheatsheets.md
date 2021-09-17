@@ -7,7 +7,7 @@ Let op: Alles op deze pagina linkt naar een externe bron (het origineel).
 Is een link stuk? Meldt het dan s.v.p.
 
 # Cheat sheets
-We hebben hier een aantal handige cheet sheets op een rijtje gezet die je bijvoorbeeld kunt gebruiken als reminder.
+We hebben hier een aantal handige cheat sheets op een rijtje gezet die je bijvoorbeeld kunt gebruiken als reminder.
 
 - [RStudio IDE](https://raw.githubusercontent.com/rstudio/cheatsheets/master/rstudio-ide.pdf) over gebruik van de RStudio ontwikkel omgeving (door RStudio)
 

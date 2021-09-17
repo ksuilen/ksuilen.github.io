@@ -15,7 +15,7 @@ In deze oefening ga je een aantal dingen gebruiken, waar je van te voren even na
 - R functies uit tidyverse
 - Skills om te experimenteren en rond te snuffelen in data.
 
-**Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheetsheets) (of zoek andere bronnen) als je ergens niet uit komt!
+**Tip**: Kijk bij de [Howto's](index_howtos) en [Cheatsheets](index_cheatsheets) (of zoek andere bronnen) als je ergens niet uit komt!
 
 # Opgave
 1. Laadt het Notebook en de dataset in RStudio (zie bronbestanden hieronder, of pak je eigen versie van de .Rmd als je de uitwerking van de eerste visualisatie oefening op deze dataset nog hebt).
