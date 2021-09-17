@@ -1,3 +1,4 @@
+
 ---
 title: "Verkopen - Visualiseren 2 [jouw naam]"
 output:
