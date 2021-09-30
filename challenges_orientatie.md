@@ -17,7 +17,8 @@ Per challenge maak je een Notebook waarin je je aanpak, code en resultaten verwe
 ## Challenge 1 - ISales dataset
 - In welk continent is de gemiddelde klanttevredenheid het hoogste?
 - Bestellen mannen of vrouwen over het algemeen meer?
-- Welk product heeft per bestelling de hoogste opbrengst?
+- Welk product heeft per bestelling de hoogste opbrengst? 
+    - Tip: kijk eens naar de verhouding tussen aantal en opbrengst per bestelling
 - Welk product kunnen we uit het assortiment gaan halen?
 
 ## Challenge 2 - Strava dataset
