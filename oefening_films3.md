@@ -59,5 +59,5 @@ Vragen:
 32. Van welke regisseurs zijn drie of meer films bekend? 
 
 ## Materialen:
-- [Database](assets/file/DATABASE_FILM.zip)
+- [Database](assets/file/DATABASE_FILM.zip) in deze zip staan verschillende varianten van dezelfde database qua inhoud, en elk type gaat net iets anders om met bepaalde zaken en zal daardoor soms net iets anders reageren (FYI: de uitwerkingen zijn gebaseerd op de MySQL variant, gehost op FHICT infra)
 - [Verwachte uitkomsten](assets/file/Films3.pdf)
