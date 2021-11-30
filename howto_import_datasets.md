@@ -48,7 +48,7 @@ Databases komen in vele varianten en van vele leveranciers. Hier proberen we je 
 3. Test door bijvoorbeeld alle tabelnamen op te halen.  
     `dbListTables(con)`
 
-Je hebt het nu voor elkaar om gegevens uit de database op te vragen.   Je kunt een SQL chunk in te voegen in je Notebook en de output van een SQL query in een dataframe opslaan. Hieronder een voorbeeld. 
+Je hebt het nu voor elkaar om gegevens uit de database op te vragen.   Je kunt een SQL chunk in te voegen in je Notebook en de output van een SQL query in een dataframe opslaan. Hieronder een voorbeeld. Hou er rekening mee dat de SQL code per type database enigszins kan verschillen
 
 **Let op:** de bovenste regel zijn de parameters van een SQL chunk
 ![sql voorbeeld](assets/img/db_example_1.png) 
