@@ -23,7 +23,7 @@ We hebben hier een aantal handige cheat sheets op een rijtje gezet die je bijvoo
 - [Markdown guide](https://www.markdownguide.org/basic-syntax/) oke, niet echt een cheatsheet maar wel een handig overzicht met wat nuttige do's en don'ts
 
 ## SQL
-- [SQL cheat sheet](https://cdn.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf) cheat sheet die heel veel verder gaat dan voor startsemester verdieping nodig (door sqltutorial.org)
+- [SQL cheat sheet](https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf) cheat sheet die heel veel verder gaat dan voor startsemester verdieping nodig (door sqltutorial.org)
 
 # Andere bronnen
 Iets langer van stof dan een cheat sheet, ook nuttig.
