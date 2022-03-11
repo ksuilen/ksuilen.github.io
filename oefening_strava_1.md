@@ -29,5 +29,5 @@ In deze oefening ga je een aantal dingen gebruiken, waar je van te voren even na
 
 ## Materialen:
 - [Dataset](/assets/file/dataset_mystravadata.csv)
-- [Voorbeeld uitwerking](/assets/file/Oefening_Strava_1_docent.pdf)
+- [Voorbeeld uitwerking](/assets/file/Oefening_Strava_1.nb.html)
 - [Oefen Notebook](/assets/file/Oefening_Strava_1.Rmd)
