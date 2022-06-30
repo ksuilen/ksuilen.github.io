@@ -13,17 +13,22 @@ Voordat je met de materialen op deze site aan de slag gaat, raden we ten zeerste
 - [Datacamp](https://www.datacamp.com/) (Let op dat in Canvas de volledige link staat voor studententoegang)
 
 ## Structuur
-- `How-to` : Een instructie om een bepaald soort probleem aan te pakken
-- `Oefening` : Een casus met een aantal gerichte vragen/opdrachten om je vaardigheden op te frissen, of te testen. In sommige gevallen zijn uitwerkingen zijn beschikbaar
-- `Challenge` : Een wat complexere casus die je vrij laat in de manier waarop je deze oplost. Er is geen eenduidige oplossing beschikbaar. Challenges kun je gebruiken om je docent te overtuigen van je vaardigheden.
+- `How-to` : Een instructie om een bepaald soort probleem aan te pakken.
+- `Oefening` : Een casus met een aantal gerichte vragen/opdrachten om je vaardigheden op te frissen, of te testen. In sommige gevallen zijn uitwerkingen zijn beschikbaar.
+- `Challenge` : Een wat complexere casus die je vrij laat in de manier waarop je deze oplost. Er is geen eenduidige oplossing beschikbaar.
 
 Helaas openen links niet standaard in een nieuwe tab, dus tip: gebruik altijd crtl-click (of een andere shortcut) om te openen in nieuw tab. 
 
+## [Oefeningen en challenges](toolbox)
+Oefeningen van heel erg eenvoudig tot redelijk complex. Van een kennismaking met Markdown in Notebooks en basisvaardigheden in R tot complexere vraagstukken om met analyse, transformatie en visualisatie aan de slag te gaan, zelfs gecombineerd met SQL. 
+
+<!-->
 ## [Toolbox Oriëntatie](toolbox_orientatie)
 Een introductie in data analyse en visiualisatie, bedoeld voor startsemester ICT & Business. De [Toolbox Oriëntatie](toolbox_orientatie) bevat allerlei oefeningen en een paar challenges.
 
 ## [Toolbox Verdieping](toolbox_verdieping)
 Materialen voor de verdiepende fase, met complexere vraagstukken m.b.t. analyse, transformatie en visualisatie van data in R en een introductie in SQL. De [Toolbox Verdieping](toolbox_verdieping) bevat ook allerlei oefeningen en een paar challenges.
+-->
 
 ## [Howto's](index_howtos)
 Diverse instructies om technisch inhoudelijke zaken aan te pakken, of om te starten met een onderwerp. Zie hier de [index van howto's](index_howtos).
