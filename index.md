@@ -22,7 +22,7 @@ Helaas openen links niet standaard in een nieuwe tab, dus tip: gebruik altijd cr
 ## [Oefeningen en challenges](toolbox)
 Oefeningen van heel erg eenvoudig tot redelijk complex. Van een kennismaking met Markdown in Notebooks en basisvaardigheden in R tot complexere vraagstukken om met analyse, transformatie en visualisatie aan de slag te gaan, zelfs gecombineerd met SQL. 
 
-<!-->
+<!--
 ## [Toolbox Oriëntatie](toolbox_orientatie)
 Een introductie in data analyse en visiualisatie, bedoeld voor startsemester ICT & Business. De [Toolbox Oriëntatie](toolbox_orientatie) bevat allerlei oefeningen en een paar challenges.
 
