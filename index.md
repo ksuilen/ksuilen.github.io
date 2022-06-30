@@ -5,10 +5,10 @@ title: "Fontys ICT - Startsemester ICT & Business - resources"
 
 # Over deze site
 
-Deze Github pages website bevat allerlei materialen die bedoeld zijn om wegwijs te worden in het startsemester van Fontys Hogeschool ICT (FHICT) en dan specifiek het profiel ICT & Business. De focus van deze materialen ligt op het gebied van data analyse, tranformatie en visualisatie met de taal R voor de oriëntatie fase en voor de verdiepende fase komt daar wat SQL bij.
+Deze Github pages website bevat allerlei materialen die bedoeld zijn om wegwijs te worden in het startsemester van Fontys Hogeschool ICT (FHICT) en dan specifiek het profiel ICT & Business. De focus van deze materialen ligt op het gebied van data analyse, tranformatie en visualisatie met de talen R en SQL.
 
 ## Voorkennis
-Voordat je met de materialen op deze site aan de slag gaat, raden we ten zeerste aan om een of meerdere kennismakingscursussen te doen op het gebied van R, Tidyverse en GGPlot. Deze kun je vinden via o.a.:  
+Voordat je met de materialen op deze site aan de slag gaat, raden we ten zeerste aan om een of meerdere kennismakingscursussen te doen op het gebied van R (Tidyverse en GGPlot) en/of SQL (tenzij je daar al ervaring mee hebt). Deze kun je vinden via o.a.:  
 
 - [Datacamp](https://www.datacamp.com/) (Let op dat in Canvas de volledige link staat voor studententoegang)
 
